@@ -21,22 +21,23 @@ GOTO END
 :UP
 ECHO Launching VAGRANT...
 vagrant up
-:END
+GOTO END
 
 :RELOAD
 ECHO RELOADING...
 vagrant reload
-:END
+GOTO END
 
 :PROVISON
 ECHO PROVISION...
 vagrant provison
-:END
+GOTO END
 
 :SSHTUNEL
 ECHO CONNECTING THROUGH SSH
 vagrant ssh
-:END
+GOTO END
 
+:END
 pause
 
