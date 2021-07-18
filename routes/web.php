@@ -11,8 +11,42 @@ use Illuminate\Support\Facades\Route;
 | routes are loaded by the RouteServiceProvider within a group which
 | contains the "web" middleware group. Now create something great!
 |
+|
+    ██████              ██████
+  ██░░░░░░██████████████░░░░░░██
+  ██░░░░░░░░░░░░░░░░░░░░░░░░░░██
+    ████░░░░░░░░░░░░░░░░░░████
+    ██░░████░░░░░░░░░░████░░██
+  ██░░░░████░░░░░░░░░░████░░░░██
+  ██░░░░░░░░██████████░░░░░░░░██
+  ██░░░░░░██░░░░░░░░░░██░░░░░░██
+  ██░░░░░░██░░██░░██░░██░░░░░░██
+  ██░░░░░░██░░░░░░░░░░██░░░░░░██
+    ██░░░░░░██████████░░░░░░██
+    ██░░░░░░░░░░░░░░░░░░░░░░██
+      ██░░██░░░░░░░░░░██░░██
+      ██░░░░██████████░░░░██
+      ██░░░░██      ██░░░░██
+      ████████      ████████
 */
 
+
 Route::get('/', function () {
-    return view('welcome');
+    return view('pages.welcome');
+});
+
+Route::get('/about', function () {
+    return view('pages.about');
+});
+
+Route::get('/skillz', function () {
+    return view('pages.about');
+});
+
+Route::get('/work', function () {
+    return view('pages.about');
+});
+
+Route::get('/contact', function () {
+    return view('pages.about');
 });
