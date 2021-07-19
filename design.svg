@@ -45,11 +45,11 @@
      pagecolor="#ffffff"
      bordercolor="#666666"
      borderopacity="1.0"
-     inkscape:pageopacity="0.0"
+     inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-     inkscape:cx="821.79708"
-     inkscape:cy="604.36257"
+     inkscape:cx="982.0136"
+     inkscape:cy="582.47191"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
@@ -59,7 +59,8 @@
      inkscape:window-height="1377"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
-     inkscape:window-maximized="1" />
+     inkscape:window-maximized="1"
+     showguides="true" />
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -77,12 +78,12 @@
      inkscape:groupmode="layer"
      id="layer1">
     <rect
-       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.225078;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.267448;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect892"
        width="270.71609"
-       height="264.35825"
-       x="118.64195"
-       y="17.492336"
+       height="266.70416"
+       x="119.08318"
+       y="10.740173"
        inkscape:label="rect892" />
     <image
        width="132.29167"
@@ -4250,21 +4251,18 @@ uzDPzs6yG0Mp/cgKVJ8x+f//C1iYZZI/V1FEAAAAAElFTkSuQmCC
        x="236.00833"
        y="42.862495"
        clip-path="url(#clipPath884)"
-       transform="matrix(0.22207137,0,0,0.21975683,97.200222,44.330557)" />
+       transform="matrix(0.22207137,0,0,0.21975683,90.127375,44.330557)" />
     <text
        xml:space="preserve"
        id="text905"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.70417px;line-height:1.25;font-family:'Roboto Mono Light for Powerline';-inkscape-font-specification:'Roboto Mono Light for Powerline, Normal';white-space:pre;shape-inside:url(#rect907);fill:#000000;fill-opacity:1;stroke:none;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;"
-       transform="translate(6.2493326,15.875)"><tspan
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:3.70417px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:'Calibri, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect907);fill:#000000;fill-opacity:1;stroke:none;"
+       transform="translate(-0.82351395,15.875)"><tspan
          x="179.12305"
          y="40.811461"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.70417px;font-family:'Roboto Mono Light for Powerline';-inkscape-font-specification:'Roboto Mono Light for Powerline, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto earum, ex </tspan></tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:3.70417px;font-family:Calibri;-inkscape-font-specification:'Calibri, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto earum, ex incidunt non illum debitis, natus id </tspan></tspan><tspan
          x="179.12305"
          y="45.441672"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.70417px;font-family:'Roboto Mono Light for Powerline';-inkscape-font-specification:'Roboto Mono Light for Powerline, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">incidunt non illum debitis, natus id fugiat animi libero suscipit maxime </tspan></tspan><tspan
-         x="179.12305"
-         y="50.071883"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.70417px;font-family:'Roboto Mono Light for Powerline';-inkscape-font-specification:'Roboto Mono Light for Powerline, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">adipisci? Voluptates minus fuga magnam corrupti eos eaque!</tspan></tspan></text>
+           style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:3.70417px;font-family:Calibri;-inkscape-font-specification:'Calibri, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">fugiat animi libero suscipit maxime adipisci? Voluptates minus fuga magnam corrupti eos eaque!</tspan></tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:'Roboto Mono Light for Powerline';-inkscape-font-specification:'Roboto Mono Light for Powerline';fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
@@ -4299,22 +4297,118 @@ uzDPzs6yG0Mp/cgKVJ8x+f//C1iYZZI/V1FEAAAAAElFTkSuQmCC
          style="stroke-width:0.264583" /></text>
     <text
        xml:space="preserve"
-       style="font-size:4.23333px;line-height:1.25;font-family:'Roboto Mono Light for Powerline';-inkscape-font-specification:'Roboto Mono Light for Powerline, Normal';stroke-width:0.264583;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;"
-       x="149.61868"
-       y="49.741673"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.7625px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:'Calibri, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583;"
+       x="142.54584"
+       y="44.450005"
        id="text931"><tspan
          sodipodi:role="line"
          id="tspan929"
-         x="149.61868"
-         y="49.741673"
-         style="font-size:4.23333337px;stroke-width:0.264583;-inkscape-font-specification:'Roboto Mono Light for Powerline, Normal';font-family:'Roboto Mono Light for Powerline';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;">About me</tspan></text>
+         x="142.54584"
+         y="44.450005"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.76250004px;font-family:Calibri;-inkscape-font-specification:'Calibri, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583;">About me</tspan></text>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#0066ff;stroke-width:0.264583;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect933"
+       width="46.831264"
+       height="12.170844"
+       x="178.70702"
+       y="95.77916"
+       ry="6.085422" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.70417px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:'Calibri, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+       x="189.82364"
+       y="103.23557"
+       id="text937"><tspan
+         sodipodi:role="line"
+         id="tspan935"
+         x="189.82364"
+         y="103.23557"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.70417px;font-family:Calibri;-inkscape-font-specification:'Calibri, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583">Download CV</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.70417px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:'Calibri, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+       x="178.34863"
+       y="82.81459"
+       id="text941"><tspan
+         sodipodi:role="line"
+         id="tspan939"
+         x="178.34863"
+         y="82.81459"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.70417px;font-family:Calibri;-inkscape-font-specification:'Calibri, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         dy="-5"><tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.70417px;font-family:Calibri;-inkscape-font-specification:'Calibri, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#3771c8"
+   id="tspan1031">Name:</tspan> Vladislovas Kidanovas</tspan><tspan
+         sodipodi:role="line"
+         x="178.34863"
+         y="87.444801"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.70417px;font-family:Calibri;-inkscape-font-specification:'Calibri, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         id="tspan943"><tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.70417px;font-family:Calibri;-inkscape-font-specification:'Calibri, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#3771c8"
+   id="tspan1035">Citizenship:</tspan> Lithuanian</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.70417px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:'Calibri, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+       x="259.23575"
+       y="82.81459"
+       id="text941-1"><tspan
+         sodipodi:role="line"
+         id="tspan939-6"
+         x="259.23575"
+         y="82.81459"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.70417px;font-family:Calibri;-inkscape-font-specification:'Calibri, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         dy="-5"><tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.70417px;font-family:Calibri;-inkscape-font-specification:'Calibri, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#0066ff"
+   id="tspan1037">Age:</tspan> 29</tspan><tspan
+         sodipodi:role="line"
+         x="259.23575"
+         y="87.444801"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.70417px;font-family:Calibri;-inkscape-font-specification:'Calibri, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         id="tspan943-7"><tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.70417px;font-family:Calibri;-inkscape-font-specification:'Calibri, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#0066ff"
+   id="tspan1039">Residence:</tspan> UK</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.70417px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:'Calibri, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+       x="303.73953"
+       y="82.81459"
+       id="text941-2"><tspan
+         sodipodi:role="line"
+         id="tspan939-67"
+         x="303.73953"
+         y="82.81459"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.70417px;font-family:Calibri;-inkscape-font-specification:'Calibri, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         dy="-5"><tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.70417px;font-family:Calibri;-inkscape-font-specification:'Calibri, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#0066ff"
+   id="tspan1041">Job:</tspan> Web Developer (backend)</tspan><tspan
+         sodipodi:role="line"
+         x="303.73953"
+         y="87.444801"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.70417px;font-family:Calibri;-inkscape-font-specification:'Calibri, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         id="tspan943-3"><tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.70417px;font-family:Calibri;-inkscape-font-specification:'Calibri, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#0066ff"
+   id="tspan1043">E-mail:</tspan> vladaskidanovas@gmail.com</tspan></text>
+    <rect
+       style="fill:#3771c8;fill-opacity:1;stroke:none;stroke-width:0.16872;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1109"
+       width="73.650032"
+       height="9.8854465"
+       x="424.34375"
+       y="64.510406" />
+    <rect
+       style="fill:#2c5aa0;fill-opacity:1;stroke:none;stroke-width:0.0999643;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1111"
+       width="73.63707"
+       height="9.8724823"
+       x="424.35669"
+       y="74.395851" />
   </g>
   <g
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="navigation menu">
     <rect
-       style="fill:#ffffff;stroke:#000000;stroke-width:0.22516;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#ffffff;stroke:none;stroke-width:0.22516;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect847"
        width="507.77487"
        height="15.328896"
@@ -4322,7 +4416,7 @@ uzDPzs6yG0Mp/cgKVJ8x+f//C1iYZZI/V1FEAAAAAElFTkSuQmCC
        y="0.11255502" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:'Roboto Mono Light for Powerline';-inkscape-font-specification:'Roboto Mono Light for Powerline';word-spacing:11.1125px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:'Calibri, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;word-spacing:11.1125px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
        x="389.84711"
        y="9.7834253"
        id="text835"><tspan
@@ -4330,6 +4424,76 @@ uzDPzs6yG0Mp/cgKVJ8x+f//C1iYZZI/V1FEAAAAAElFTkSuQmCC
          id="tspan833"
          x="389.84711"
          y="9.7834253"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'Roboto Mono Light for Powerline';-inkscape-font-specification:'Roboto Mono Light for Powerline';stroke-width:0.264583">About Skills Portfolio Contact</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:Calibri;-inkscape-font-specification:'Calibri, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"><tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:Calibri;-inkscape-font-specification:'Calibri, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#2c5aa0"
+   id="tspan1059">Resume</tspan> Portfolio Blog Contact</tspan></text>
+    <path
+       style="fill:#165044;stroke:#0066ff;stroke-width:0.291798px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 389.79926,10.740173 h 15.47378"
+       id="path1057" />
+    <text
+       xml:space="preserve"
+       style="font-size:4.23333px;line-height:1.25;font-family:'Roboto Mono Light for Powerline';-inkscape-font-specification:'Roboto Mono Light for Powerline, Normal';stroke-width:0.264583"
+       x="401.39877"
+       y="39.05476"
+       id="text1067"><tspan
+         sodipodi:role="line"
+         id="tspan1065"
+         x="401.39877"
+         y="39.05476"
+         style="stroke-width:0.264583">   </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:4.23333px;line-height:1.25;font-family:'Roboto Mono Light for Powerline';-inkscape-font-specification:'Roboto Mono Light for Powerline, Normal';stroke-width:0.264583"
+       x="15.08125"
+       y="282.43597"
+       id="text1085"><tspan
+         sodipodi:role="line"
+         id="tspan1083"
+         x="15.08125"
+         y="282.43597"
+         style="font-size:3.175px;stroke-width:0.264583">© 2016 Vladislovas Kidanovas. All rights reserved.</tspan></text>
+    <image
+       width="34.924999"
+       height="10.054167"
+       preserveAspectRatio="none"
+       xlink:href="data:image/png;base64,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
+QmCC
+"
+       id="image1097"
+       x="470.16461"
+       y="273.04999" />
   </g>
 </svg>

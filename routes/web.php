@@ -33,20 +33,20 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('pages.welcome');
-});
+})->name("welcome");
 
-Route::get('/about', function () {
+Route::get('/resume', function () {
     return view('pages.about');
-});
+})->name('resume');
 
-Route::get('/skillz', function () {
+Route::get('/portfolio', function () {
     return view('pages.about');
-});
+})->name('portfolio');
 
-Route::get('/work', function () {
+Route::get('/blog', function () {
     return view('pages.about');
-});
+})->name('blog');
 
-Route::get('/contact', function () {
+Route::get('/contacts', function () {
     return view('pages.about');
-});
+})->name('contacts');

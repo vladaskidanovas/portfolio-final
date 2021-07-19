@@ -1,19 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-
     @include('includes.header')
-
-</head>
 <body>
 
     <!-- Side navigation -->
-    @include('includes.sidebar')
+    @include('includes.navigation')
 
     <!-- Page content -->
-    <div class="main">
+    <div class="main container mx-auto max-w-screen-lg">
         @yield('content')
     </div>
 
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
+
+@include('includes.footer')
+
 </html>

@@ -1,5 +1,7 @@
 @extends('layouts.master')
 
 @section('content')
-    Welcome Content
+    <div class="">
+        HELLO
+    </div>
 @stop
