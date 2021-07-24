@@ -36,17 +36,17 @@ Route::get('/', function () {
 })->name("welcome");
 
 Route::get('/resume', function () {
-    return view('pages.about');
+    return view('pages.resume');
 })->name('resume');
 
 Route::get('/portfolio', function () {
-    return view('pages.about');
+    return view('pages.resume');
 })->name('portfolio');
 
 Route::get('/blog', function () {
-    return view('pages.about');
+    return view('pages.resume');
 })->name('blog');
 
 Route::get('/contacts', function () {
-    return view('pages.about');
+    return view('pages.resume');
 })->name('contacts');

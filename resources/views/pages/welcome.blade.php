@@ -2,6 +2,6 @@
 
 @section('content')
     <div class="">
-        HELLO
+        <section>Introduction - simplfy version of resume</section>
     </div>
 @stop

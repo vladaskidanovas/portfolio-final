@@ -1,0 +1,34 @@
+footer{
+    .socials {
+        float: right;
+        margin: 0;
+        a {
+            font-size: 17px;
+            color: $primary;
+            display: inline;
+            :hover{
+                color: $secondary;
+            }
+        }
+    }
+    .copy{
+        float: left;
+        font-size: 0.75rem;
+        font-weight: 100;
+    }
+}
+
+
+@include media-breakpoint-down(sm) {
+    footer{
+        .socials{
+            float: none;
+            text-align: center;
+        }
+
+        .copy{
+            display: none;
+        }
+    }
+
+}
