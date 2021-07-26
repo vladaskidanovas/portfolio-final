@@ -8,16 +8,16 @@
         <ul class="navbar-nav ms-auto">
 
           <li class="nav-item">
-            <a class="nav-link {{ (request()->is('resume')) ? 'active' : '' }}" aria-current="page" href="{{route('resume')}}">Resume</a>
+
           </li>
           <li class="nav-item">
-            <a class="nav-link {{ (request()->is('portfolio')) ? 'active' : '' }}" aria-current="page" href="{{route('portfolio')}}">Portfolio</a>
+
           </li>
           <li class="nav-item">
-            <a class="nav-link {{ (request()->is('blog')) ? 'active' : '' }}" aria-current="page" href="{{route('blog')}}">Blog</a>
+
           </li>
           <li class="nav-item">
-            <a class="nav-link {{ (request()->is('contacts')) ? 'active' : '' }}" aria-current="page" href="{{route('contacts')}}">Contacts</a>
+
           </li>
 
           <li class="nav-item">
@@ -31,6 +31,20 @@
       </div>
     </div>
   </nav>
+
+
+  <div class="topnav" id="myTopnav">
+    <a class="nav-link {{ (request()->is('resume')) ? 'active' : '' }}" aria-current="page" href="{{route('resume')}}">Resume</a>
+    <a class="nav-link {{ (request()->is('portfolio')) ? 'active' : '' }}" aria-current="page" href="{{route('portfolio')}}">Portfolio</a>
+    <a class="nav-link {{ (request()->is('blog')) ? 'active' : '' }}" aria-current="page" href="{{route('blog')}}">Blog</a>
+    <a class="nav-link {{ (request()->is('contacts')) ? 'active' : '' }}" aria-current="page" href="{{route('contacts')}}">Contacts</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+
+
+
 
 
 
