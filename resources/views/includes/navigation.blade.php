@@ -1,4 +1,4 @@
-<nav id="" class="fixed-top navbar navbar-expand-lg navbar-light bg-light">
+<nav class="fixed-top navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
       <a class="navbar-brand" href="{{route('welcome')}}"><img src="{{ asset('img/logo_light.svg') }}" alt=""></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -8,43 +8,27 @@
         <ul class="navbar-nav ms-auto">
 
           <li class="nav-item">
-
+            <a class="nav-link {{ (request()->is('resume')) ? 'active' : '' }}" aria-current="page" href="{{route('resume')}}">Resume</a>
           </li>
           <li class="nav-item">
-
+            <a class="nav-link {{ (request()->is('portfolio')) ? 'active' : '' }}" aria-current="page" href="{{route('portfolio')}}">Portfolio</a>
           </li>
           <li class="nav-item">
-
+            <a class="nav-link {{ (request()->is('blog')) ? 'active' : '' }}" aria-current="page" href="{{route('blog')}}">Blog</a>
           </li>
           <li class="nav-item">
-
+            <a class="nav-link {{ (request()->is('contacts')) ? 'active' : '' }}" aria-current="page" href="{{route('contacts')}}">Contacts</a>
           </li>
 
           <li class="nav-item">
             <ion-icon name="sunny-outline"></ion-icon>
             <ion-icon name="moon-outline"></ion-icon>
-
           </li>
-
 
         </ul>
       </div>
     </div>
   </nav>
-
-
-  <div class="topnav" id="myTopnav">
-    <a class="nav-link {{ (request()->is('resume')) ? 'active' : '' }}" aria-current="page" href="{{route('resume')}}">Resume</a>
-    <a class="nav-link {{ (request()->is('portfolio')) ? 'active' : '' }}" aria-current="page" href="{{route('portfolio')}}">Portfolio</a>
-    <a class="nav-link {{ (request()->is('blog')) ? 'active' : '' }}" aria-current="page" href="{{route('blog')}}">Blog</a>
-    <a class="nav-link {{ (request()->is('contacts')) ? 'active' : '' }}" aria-current="page" href="{{route('contacts')}}">Contacts</a>
-    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-      <i class="fa fa-bars"></i>
-    </a>
-  </div>
-
-
-
 
 
 

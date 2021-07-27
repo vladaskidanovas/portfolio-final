@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     @include('includes.header')
-<body>
+<body class="bg-light">
 
     <!-- Side navigation -->
     @include('includes.navigation')

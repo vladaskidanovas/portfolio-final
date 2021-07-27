@@ -4,8 +4,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <link href="{{ url('/css/app.css') }}" rel="stylesheet">
-
     <script src="{{ url('/js/app.js') }}"></script>
-
     <title>Welcome</title>
+
 </head>
