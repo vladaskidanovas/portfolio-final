@@ -1,8 +1,10 @@
 nav{
     padding: 0.5rem 3rem 0.5rem 3rem;
-
     .nav-link{
         text-decoration: none;
+        &:hover{
+            color: $primary;
+        }
     }
 
 }

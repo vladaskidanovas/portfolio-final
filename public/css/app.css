@@ -26,7 +26,7 @@
   --bs-warning: #ffed4a;
   --bs-danger: #e3342f;
   --bs-light: #ffffff;
-  --bs-dark: #212529;
+  --bs-dark: #0d1013;
   --bs-font-sans-serif: "Nunito", sans-serif;
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
@@ -51,7 +51,7 @@ body {
   font-weight: 400;
   line-height: 1.6;
   color: #212529;
-  background-color: #f8fafc;
+  background-color: #ffffff;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
@@ -2038,32 +2038,32 @@ progress {
 
 .btn-dark {
   color: #fff;
-  background-color: #212529;
-  border-color: #212529;
+  background-color: #0d1013;
+  border-color: #0d1013;
 }
 .btn-dark:hover {
   color: #fff;
-  background-color: #1c1f23;
-  border-color: #1a1e21;
+  background-color: #0b0e10;
+  border-color: #0a0d0f;
 }
 .btn-check:focus + .btn-dark, .btn-dark:focus {
   color: #fff;
-  background-color: #1c1f23;
-  border-color: #1a1e21;
-  box-shadow: 0 0 0 0.25rem rgba(66, 70, 73, 0.5);
+  background-color: #0b0e10;
+  border-color: #0a0d0f;
+  box-shadow: 0 0 0 0.25rem rgba(49, 52, 54, 0.5);
 }
 .btn-check:checked + .btn-dark, .btn-check:active + .btn-dark, .btn-dark:active, .btn-dark.active, .show > .btn-dark.dropdown-toggle {
   color: #fff;
-  background-color: #1a1e21;
-  border-color: #191c1f;
+  background-color: #0a0d0f;
+  border-color: #0a0c0e;
 }
 .btn-check:checked + .btn-dark:focus, .btn-check:active + .btn-dark:focus, .btn-dark:active:focus, .btn-dark.active:focus, .show > .btn-dark.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.25rem rgba(66, 70, 73, 0.5);
+  box-shadow: 0 0 0 0.25rem rgba(49, 52, 54, 0.5);
 }
 .btn-dark:disabled, .btn-dark.disabled {
   color: #fff;
-  background-color: #212529;
-  border-color: #212529;
+  background-color: #0d1013;
+  border-color: #0d1013;
 }
 
 .btn-outline-primary {
@@ -2242,27 +2242,27 @@ progress {
 }
 
 .btn-outline-dark {
-  color: #212529;
-  border-color: #212529;
+  color: #0d1013;
+  border-color: #0d1013;
 }
 .btn-outline-dark:hover {
   color: #fff;
-  background-color: #212529;
-  border-color: #212529;
+  background-color: #0d1013;
+  border-color: #0d1013;
 }
 .btn-check:focus + .btn-outline-dark, .btn-outline-dark:focus {
-  box-shadow: 0 0 0 0.25rem rgba(33, 37, 41, 0.5);
+  box-shadow: 0 0 0 0.25rem rgba(13, 16, 19, 0.5);
 }
 .btn-check:checked + .btn-outline-dark, .btn-check:active + .btn-outline-dark, .btn-outline-dark:active, .btn-outline-dark.active, .btn-outline-dark.dropdown-toggle.show {
   color: #fff;
-  background-color: #212529;
-  border-color: #212529;
+  background-color: #0d1013;
+  border-color: #0d1013;
 }
 .btn-check:checked + .btn-outline-dark:focus, .btn-check:active + .btn-outline-dark:focus, .btn-outline-dark:active:focus, .btn-outline-dark.active:focus, .btn-outline-dark.dropdown-toggle.show:focus {
-  box-shadow: 0 0 0 0.25rem rgba(33, 37, 41, 0.5);
+  box-shadow: 0 0 0 0.25rem rgba(13, 16, 19, 0.5);
 }
 .btn-outline-dark:disabled, .btn-outline-dark.disabled {
-  color: #212529;
+  color: #0d1013;
   background-color: transparent;
 }
 
@@ -3093,10 +3093,10 @@ progress {
 }
 
 .link-dark {
-  color: #212529;
+  color: #0d1013;
 }
 .link-dark:hover, .link-dark:focus {
-  color: #1a1e21;
+  color: #0a0d0f;
 }
 
 .ratio {
@@ -3475,7 +3475,7 @@ progress {
 }
 
 .border-dark {
-  border-color: #212529 !important;
+  border-color: #0d1013 !important;
 }
 
 .border-white {
@@ -4304,7 +4304,7 @@ progress {
 }
 
 .text-dark {
-  color: #212529 !important;
+  color: #0d1013 !important;
 }
 
 .text-white {
@@ -4360,11 +4360,11 @@ progress {
 }
 
 .bg-dark {
-  background-color: #212529 !important;
+  background-color: #0d1013 !important;
 }
 
 .bg-body {
-  background-color: #f8fafc !important;
+  background-color: #ffffff !important;
 }
 
 .bg-white {
@@ -7782,6 +7782,9 @@ nav {
 nav .nav-link {
   text-decoration: none;
 }
+nav .nav-link:hover {
+  color: #B00020;
+}
 
 @media (max-width: 575.98px) {
   nav {
@@ -7828,7 +7831,7 @@ html body .main {
 }
 
 .mode-dark {
-  background-color: #212529;
+  background-color: #0d1013;
   color: #ffffff;
 }
 .mode-dark .navbar-nav .nav-link {
@@ -7840,13 +7843,13 @@ html body .main {
 
 .mode-light {
   background-color: #ffffff;
-  color: #212529;
+  color: #0d1013;
 }
 .mode-light .navbar-nav .nav-link {
-  color: #212529;
+  color: #0d1013;
 }
 .mode-light footer a {
-  color: #212529;
+  color: #0d1013;
 }
 
 .welcome-logo {
