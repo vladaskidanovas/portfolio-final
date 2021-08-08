@@ -31,23 +31,23 @@
        spreadMethod="pad">
       <stop
          offset="0%"
-         stop-color="#002b11"
+         stop-color="#ea0052"
          id="stop873"
-         style="stop-color:#002b11;stop-opacity:1">
+         style="stop-color:#ea0052;stop-opacity:1">
         <animate
            attributeName="stop-color"
-           values="#002b11; #008033; #002b11"
+           values="#ea0052; #B00020; #ea0052"
            dur="4s"
            repeatCount="indefinite" />
       </stop>
       <stop
          offset="100%"
-         stop-color="#008033"
+         stop-color="#B00020"
          id="stop875"
-         style="stop-color:#008033;stop-opacity:1">
+         style="stop-color:#B00020;stop-opacity:1">
         <animate
            attributeName="stop-color"
-           values="#008033; #002b11; #008033"
+           values="#B00020; #ea0052; #B00020"
            dur="4s"
            repeatCount="indefinite" />
       </stop>

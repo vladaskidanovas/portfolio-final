@@ -4,10 +4,9 @@ footer{
         margin: 0;
         a {
             font-size: 17px;
-            color: $primary;
             display: inline;
             :hover{
-                color: $secondary;
+                color: $primary;
             }
         }
     }

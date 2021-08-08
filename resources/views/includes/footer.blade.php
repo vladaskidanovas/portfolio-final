@@ -1,4 +1,4 @@
-<footer class="fixed-bottom bg-light py-2 px-5">
+<footer class="fixed-bottom py-2 px-5">
 
         <div class="socials">
             <a class="p-2" href="#"><ion-icon name="logo-github"></ion-icon></a>

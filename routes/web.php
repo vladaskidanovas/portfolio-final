@@ -40,13 +40,13 @@ Route::get('/resume', function () {
 })->name('resume');
 
 Route::get('/portfolio', function () {
-    return view('pages.resume');
+    return view('pages.portfolio');
 })->name('portfolio');
 
 Route::get('/blog', function () {
-    return view('pages.resume');
+    return view('pages.blog');
 })->name('blog');
 
 Route::get('/contacts', function () {
-    return view('pages.resume');
+    return view('pages.contacts');
 })->name('contacts');

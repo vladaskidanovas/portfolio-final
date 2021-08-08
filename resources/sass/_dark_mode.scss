@@ -1,4 +1,24 @@
 .mode-dark{
-    background-color: rgb(12, 12, 12);
-    color: white;
+    background-color: $dark;
+    color: $light;
+    .navbar-nav .nav-link {
+        color: $light;
+    }
+    footer{
+        a {
+            color: $light;
+        }
+    }
+}
+.mode-light{
+    background-color: $light;
+    color: $dark;
+    .navbar-nav .nav-link {
+        color: $dark;
+    }
+    footer{
+        a {
+            color: $dark;
+        }
+    }
 }
