@@ -1,9 +1,21 @@
 .mode-dark{
     background-color: $dark;
     color: $light;
-    .navbar-nav .nav-link {
-        color: $light;
+    nav{
+        .dark-btn{
+            display: none;
+        }
+        .light-btn{
+            display: inline;
+        }
+        .navbar-nav
+        {
+            .nav-link {
+                color: $light;
+            }
+        }
     }
+
     footer{
         a {
             color: $light;
@@ -13,8 +25,18 @@
 .mode-light{
     background-color: $light;
     color: $dark;
-    .navbar-nav .nav-link {
-        color: $dark;
+    nav{
+        .dark-btn{
+            display: inline;
+        }
+        .light-btn{
+            display: none;
+        }
+        .navbar-nav{
+            .nav-link {
+                color: $dark;
+            }
+        }
     }
     footer{
         a {

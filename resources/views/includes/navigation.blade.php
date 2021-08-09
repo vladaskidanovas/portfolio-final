@@ -28,8 +28,8 @@
                 </li>
 
             </ul>
-            <ion-icon name="sunny-outline"></ion-icon>
-            <ion-icon name="moon-outline"></ion-icon>
+            <ion-icon class="light-btn" name="sunny-outline"></ion-icon>
+            <ion-icon class="dark-btn" name="moon-outline"></ion-icon>
         </div>
     </div>
 </nav>

@@ -7834,7 +7834,13 @@ html body .main {
   background-color: #0d1013;
   color: #ffffff;
 }
-.mode-dark .navbar-nav .nav-link {
+.mode-dark nav .dark-btn {
+  display: none;
+}
+.mode-dark nav .light-btn {
+  display: inline;
+}
+.mode-dark nav .navbar-nav .nav-link {
   color: #ffffff;
 }
 .mode-dark footer a {
@@ -7845,7 +7851,13 @@ html body .main {
   background-color: #ffffff;
   color: #0d1013;
 }
-.mode-light .navbar-nav .nav-link {
+.mode-light nav .dark-btn {
+  display: inline;
+}
+.mode-light nav .light-btn {
+  display: none;
+}
+.mode-light nav .navbar-nav .nav-link {
   color: #0d1013;
 }
 .mode-light footer a {
