@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
     @include('includes.header')
-<body class="mode-dark">
+<body class="mode-light">
 
     <!-- Side navigation -->
     @include('includes.navigation')
 
     <!-- Page content -->
-    <div class="main container mx-auto max-w-screen-lg">
+    <div class="main">
         @yield('content')
     </div>
 

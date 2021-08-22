@@ -19,7 +19,7 @@
   --bs-white: #fff;
   --bs-gray: #6c757d;
   --bs-gray-dark: #343a40;
-  --bs-primary: #B00020;
+  --bs-primary: #fa00ff;
   --bs-secondary: #B00020;
   --bs-success: #38c172;
   --bs-info: #6cb2eb;
@@ -202,11 +202,11 @@ sup {
 }
 
 a {
-  color: #B00020;
+  color: #fa00ff;
   text-decoration: underline;
 }
 a:hover {
-  color: #8d001a;
+  color: #c800cc;
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
@@ -1819,7 +1819,7 @@ progress {
 }
 .btn-check:focus + .btn, .btn:focus {
   outline: 0;
-  box-shadow: 0 0 0 0.25rem rgba(176, 0, 32, 0.25);
+  box-shadow: 0 0 0 0.25rem rgba(250, 0, 255, 0.25);
 }
 .btn:disabled, .btn.disabled, fieldset:disabled .btn {
   pointer-events: none;
@@ -1827,33 +1827,33 @@ progress {
 }
 
 .btn-primary {
-  color: #fff;
-  background-color: #B00020;
-  border-color: #B00020;
+  color: #000;
+  background-color: #fa00ff;
+  border-color: #fa00ff;
 }
 .btn-primary:hover {
-  color: #fff;
-  background-color: #96001b;
-  border-color: #8d001a;
+  color: #000;
+  background-color: #fb26ff;
+  border-color: #fb1aff;
 }
 .btn-check:focus + .btn-primary, .btn-primary:focus {
-  color: #fff;
-  background-color: #96001b;
-  border-color: #8d001a;
-  box-shadow: 0 0 0 0.25rem rgba(188, 38, 65, 0.5);
+  color: #000;
+  background-color: #fb26ff;
+  border-color: #fb1aff;
+  box-shadow: 0 0 0 0.25rem rgba(213, 0, 217, 0.5);
 }
 .btn-check:checked + .btn-primary, .btn-check:active + .btn-primary, .btn-primary:active, .btn-primary.active, .show > .btn-primary.dropdown-toggle {
-  color: #fff;
-  background-color: #8d001a;
-  border-color: #840018;
+  color: #000;
+  background-color: #fb33ff;
+  border-color: #fb1aff;
 }
 .btn-check:checked + .btn-primary:focus, .btn-check:active + .btn-primary:focus, .btn-primary:active:focus, .btn-primary.active:focus, .show > .btn-primary.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.25rem rgba(188, 38, 65, 0.5);
+  box-shadow: 0 0 0 0.25rem rgba(213, 0, 217, 0.5);
 }
 .btn-primary:disabled, .btn-primary.disabled {
-  color: #fff;
-  background-color: #B00020;
-  border-color: #B00020;
+  color: #000;
+  background-color: #fa00ff;
+  border-color: #fa00ff;
 }
 
 .btn-secondary {
@@ -2067,27 +2067,27 @@ progress {
 }
 
 .btn-outline-primary {
-  color: #B00020;
-  border-color: #B00020;
+  color: #fa00ff;
+  border-color: #fa00ff;
 }
 .btn-outline-primary:hover {
-  color: #fff;
-  background-color: #B00020;
-  border-color: #B00020;
+  color: #000;
+  background-color: #fa00ff;
+  border-color: #fa00ff;
 }
 .btn-check:focus + .btn-outline-primary, .btn-outline-primary:focus {
-  box-shadow: 0 0 0 0.25rem rgba(176, 0, 32, 0.5);
+  box-shadow: 0 0 0 0.25rem rgba(250, 0, 255, 0.5);
 }
 .btn-check:checked + .btn-outline-primary, .btn-check:active + .btn-outline-primary, .btn-outline-primary:active, .btn-outline-primary.active, .btn-outline-primary.dropdown-toggle.show {
-  color: #fff;
-  background-color: #B00020;
-  border-color: #B00020;
+  color: #000;
+  background-color: #fa00ff;
+  border-color: #fa00ff;
 }
 .btn-check:checked + .btn-outline-primary:focus, .btn-check:active + .btn-outline-primary:focus, .btn-outline-primary:active:focus, .btn-outline-primary.active:focus, .btn-outline-primary.dropdown-toggle.show:focus {
-  box-shadow: 0 0 0 0.25rem rgba(176, 0, 32, 0.5);
+  box-shadow: 0 0 0 0.25rem rgba(250, 0, 255, 0.5);
 }
 .btn-outline-primary:disabled, .btn-outline-primary.disabled {
-  color: #B00020;
+  color: #fa00ff;
   background-color: transparent;
 }
 
@@ -2268,11 +2268,11 @@ progress {
 
 .btn-link {
   font-weight: 400;
-  color: #B00020;
+  color: #fa00ff;
   text-decoration: underline;
 }
 .btn-link:hover {
-  color: #8d001a;
+  color: #c800cc;
 }
 .btn-link:disabled, .btn-link.disabled {
   color: #6c757d;
@@ -2567,7 +2567,7 @@ progress {
 .dropdown-item.active, .dropdown-item:active {
   color: #fff;
   text-decoration: none;
-  background-color: #B00020;
+  background-color: #fa00ff;
 }
 .dropdown-item.disabled, .dropdown-item:disabled {
   color: #adb5bd;
@@ -2608,7 +2608,7 @@ progress {
 }
 .dropdown-menu-dark .dropdown-item.active, .dropdown-menu-dark .dropdown-item:active {
   color: #fff;
-  background-color: #B00020;
+  background-color: #fa00ff;
 }
 .dropdown-menu-dark .dropdown-item.disabled, .dropdown-menu-dark .dropdown-item:disabled {
   color: #adb5bd;
@@ -3044,10 +3044,10 @@ progress {
 }
 
 .link-primary {
-  color: #B00020;
+  color: #fa00ff;
 }
 .link-primary:hover, .link-primary:focus {
-  color: #8d001a;
+  color: #fb33ff;
 }
 
 .link-secondary {
@@ -3447,7 +3447,7 @@ progress {
 }
 
 .border-primary {
-  border-color: #B00020 !important;
+  border-color: #fa00ff !important;
 }
 
 .border-secondary {
@@ -4276,7 +4276,7 @@ progress {
 
 /* rtl:end:remove */
 .text-primary {
-  color: #B00020 !important;
+  color: #fa00ff !important;
 }
 
 .text-secondary {
@@ -4332,7 +4332,7 @@ progress {
 }
 
 .bg-primary {
-  background-color: #B00020 !important;
+  background-color: #fa00ff !important;
 }
 
 .bg-secondary {
@@ -7783,7 +7783,8 @@ nav .nav-link {
   text-decoration: none;
 }
 nav .nav-link:hover {
-  color: #B00020;
+  transition: color 0.5s ease;
+  color: #6574cd !important;
 }
 
 @media (max-width: 575.98px) {
@@ -7801,7 +7802,8 @@ footer .socials a {
   display: inline;
 }
 footer .socials a :hover {
-  color: #B00020;
+  transition: color 0.5s ease;
+  color: #6574cd;
 }
 footer .copy {
   float: left;
@@ -7878,34 +7880,8 @@ html body .main {
 .welcome-page .simple-about {
   float: right;
 }
-.welcome-page .lines {
-  height: 100%;
-  position: relative;
-  left: 100px;
-}
-.welcome-page .lines .line {
-  height: 100%;
-  /* Override in-line if you want specific height. */
-  width: 3pt;
-  /* Line width */
-  margin-left: 10px;
-  float: left;
-}
-.welcome-page .lines .line.one {
-  background-color: #385294;
-  /* Line color */
-}
-.welcome-page .lines .line.two {
-  background-color: #754d2c;
-  /* Line color */
-}
-.welcome-page .lines .line.three {
-  background-color: #ff6022;
-  /* Line color */
-}
-.welcome-page .lines .line.four {
-  background-color: #ffa034;
-  /* Line color */
+.welcome-page .line-number {
+  color: #41505f;
 }
 
 @media (max-width: 575.98px) {

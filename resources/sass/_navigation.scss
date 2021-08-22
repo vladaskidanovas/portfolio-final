@@ -3,7 +3,8 @@ nav{
     .nav-link{
         text-decoration: none;
         &:hover{
-            color: $primary;
+            transition: color 0.5s ease;
+            color: $indigo!important;
         }
     }
 
@@ -15,5 +16,3 @@ nav{
         padding-right: 0.25rem;
     }
 }
-
-

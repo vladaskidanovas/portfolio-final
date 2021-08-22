@@ -11,28 +11,8 @@
     .simple-about{
         float: right;
     }
-    .lines{
-        height: 100%;
-        position: relative;
-        left: 100px;
-        .line{
-            height: 100%; /* Override in-line if you want specific height. */
-            width: 3pt; /* Line width */
-            margin-left: 10px;
-            float: left;
-            &.one{
-                background-color: #385294; /* Line color */
-            }
-            &.two{
-                background-color: #754d2c; /* Line color */
-            }
-            &.three{
-                background-color: #ff6022; /* Line color */
-            }
-            &.four{
-                background-color: #ffa034; /* Line color */
-            }
-        }
+    .line-number{
+        color: lighten($dark, 25%);
     }
 }
 
