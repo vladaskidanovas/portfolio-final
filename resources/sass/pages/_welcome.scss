@@ -4,26 +4,12 @@
 
 .welcome-page{
     height: 100%;
-    .brackets{
-        float: left;
-        font-size: 256px;
-    }
-    .simple-about{
-        float: right;
-    }
-    .line-number{
-        color: lighten($dark, 25%);
-    }
 }
 
 @include media-breakpoint-down(sm) {
-    .welcome-logo{
-        display: none;
-    }
+
 }
 
 @include media-breakpoint-down(md) {
-    .welcome-logo{
-        width: 256px;
-    }
+
 }

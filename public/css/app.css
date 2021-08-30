@@ -7873,24 +7873,3 @@ html body .main {
 .welcome-page {
   height: 100%;
 }
-.welcome-page .brackets {
-  float: left;
-  font-size: 256px;
-}
-.welcome-page .simple-about {
-  float: right;
-}
-.welcome-page .line-number {
-  color: #41505f;
-}
-
-@media (max-width: 575.98px) {
-  .welcome-logo {
-    display: none;
-  }
-}
-@media (max-width: 767.98px) {
-  .welcome-logo {
-    width: 256px;
-  }
-}

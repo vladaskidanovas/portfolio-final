@@ -5,6 +5,6 @@
 
     <link href="{{ url('/css/app.css') }}" rel="stylesheet">
     <script src="{{ url('/js/app.js') }}"></script>
-    <title>VK | Backend developer</title>
+    <title>VK | Web Developer</title>
 
 </head>
