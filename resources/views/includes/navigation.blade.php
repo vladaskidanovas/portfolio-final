@@ -1,7 +1,7 @@
 <nav class="fixed-top navbar navbar-expand-lg">
     <div class="container-fluid">
         <a class="navbar-brand" href="{{ route('welcome') }}">
-            <img src="{{ asset('img/logo_holo.svg') }}" alt="">
+            <img width="32" src="{{ asset('img/logonew.svg') }}" alt="">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
