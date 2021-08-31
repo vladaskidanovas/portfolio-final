@@ -1,11 +1,24 @@
 nav{
     padding: 0.5rem 3rem 0.5rem 3rem;
+    ion-icon{
+        font-size: 32px;
+    }
+    .navbar-toggler:focus {
+        text-decoration: none;
+        outline: 0;
+        box-shadow: none;
+    }
+
     .nav-link{
         text-decoration: none;
         &:hover{
             transition: color 0.5s ease;
             color: $indigo!important;
         }
+    }
+
+    #theme_btn{
+        font-size: $font-size-base;
     }
 
 }

@@ -2,6 +2,9 @@
     background-color: $dark;
     color: $light;
     nav{
+        ion-icon{
+            color: $light;
+        }
         .dark-btn{
             display: none;
         }

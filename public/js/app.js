@@ -949,7 +949,7 @@ eval("\n\nvar bind = __webpack_require__(/*! ./helpers/bind */ \"./node_modules/
   \*****************************/
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("__webpack_require__(/*! ./bootstrap */ \"./resources/js/bootstrap.js\");//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9yZXNvdXJjZXMvanMvYXBwLmpzPzZkNDAiXSwibmFtZXMiOlsicmVxdWlyZSJdLCJtYXBwaW5ncyI6IkFBQUFBLG1CQUFPLENBQUMsZ0RBQUQsQ0FBUCIsImZpbGUiOiIuL3Jlc291cmNlcy9qcy9hcHAuanMuanMiLCJzb3VyY2VzQ29udGVudCI6WyJyZXF1aXJlKCcuL2Jvb3RzdHJhcCcpO1xuXG5cblxuIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./resources/js/app.js\n");
+eval("__webpack_require__(/*! ./bootstrap */ \"./resources/js/bootstrap.js\");\n\n$(document).ready(function () {\n  $(\".theme_btn\").on(\"click\", function () {\n    if ($(\"body\").attr(\"class\") == \"mode-dark\") {\n      $(\"body\").attr(\"class\", \"mode-light\");\n    } else {\n      $(\"body\").attr(\"class\", \"mode-dark\");\n    }\n  });\n});//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9yZXNvdXJjZXMvanMvYXBwLmpzPzZkNDAiXSwibmFtZXMiOlsicmVxdWlyZSIsIiQiLCJkb2N1bWVudCIsInJlYWR5Iiwib24iLCJhdHRyIl0sIm1hcHBpbmdzIjoiQUFBQUEsbUJBQU8sQ0FBQyxnREFBRCxDQUFQOztBQUVBQyxDQUFDLENBQUNDLFFBQUQsQ0FBRCxDQUFZQyxLQUFaLENBQWtCLFlBQVU7QUFDeEJGLEdBQUMsQ0FBQyxZQUFELENBQUQsQ0FBZ0JHLEVBQWhCLENBQW1CLE9BQW5CLEVBQTRCLFlBQVU7QUFFbEMsUUFBSUgsQ0FBQyxDQUFDLE1BQUQsQ0FBRCxDQUFVSSxJQUFWLENBQWUsT0FBZixLQUEyQixXQUEvQixFQUE0QztBQUN4Q0osT0FBQyxDQUFDLE1BQUQsQ0FBRCxDQUFVSSxJQUFWLENBQWUsT0FBZixFQUF3QixZQUF4QjtBQUNILEtBRkQsTUFFSztBQUNESixPQUFDLENBQUMsTUFBRCxDQUFELENBQVVJLElBQVYsQ0FBZSxPQUFmLEVBQXdCLFdBQXhCO0FBQ0g7QUFFSixHQVJEO0FBU0QsQ0FWSCIsImZpbGUiOiIuL3Jlc291cmNlcy9qcy9hcHAuanMuanMiLCJzb3VyY2VzQ29udGVudCI6WyJyZXF1aXJlKCcuL2Jvb3RzdHJhcCcpO1xuXG4kKGRvY3VtZW50KS5yZWFkeShmdW5jdGlvbigpe1xuICAgICQoXCIudGhlbWVfYnRuXCIpLm9uKFwiY2xpY2tcIiwgZnVuY3Rpb24oKXtcblxuICAgICAgICBpZiAoJChcImJvZHlcIikuYXR0cihcImNsYXNzXCIpID09IFwibW9kZS1kYXJrXCIpIHtcbiAgICAgICAgICAgICQoXCJib2R5XCIpLmF0dHIoXCJjbGFzc1wiLCBcIm1vZGUtbGlnaHRcIik7XG4gICAgICAgIH1lbHNle1xuICAgICAgICAgICAgJChcImJvZHlcIikuYXR0cihcImNsYXNzXCIsIFwibW9kZS1kYXJrXCIpO1xuICAgICAgICB9XG5cbiAgICB9KTtcbiAgfSk7XG5cbiJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./resources/js/app.js\n");
 
 /***/ }),
 
@@ -1149,7 +1149,7 @@ eval("// shim for using process in browser\nvar process = module.exports = {};\n
 /******/ 		// [resolve, reject, Promise] = chunk loading, 0 = chunk loaded
 /******/ 		var installedChunks = {
 /******/ 			"/js/app": 0,
-/******/ 			"css/app": 0
+/******/ 			"css/app.css1630417007960": 0
 /******/ 		};
 /******/ 		
 /******/ 		// no chunk on demand loading
@@ -1197,8 +1197,8 @@ eval("// shim for using process in browser\nvar process = module.exports = {};\n
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module depends on other loaded chunks and execution need to be delayed
-/******/ 	__webpack_require__.O(undefined, ["css/app"], () => (__webpack_require__("./resources/js/app.js")))
-/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["css/app"], () => (__webpack_require__("./resources/sass/app.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/app.css1630417007960"], () => (__webpack_require__("./resources/js/app.js")))
+/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["css/app.css1630417007960"], () => (__webpack_require__("./resources/sass/app.scss")))
 /******/ 	__webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 /******/ 	
 /******/ })()

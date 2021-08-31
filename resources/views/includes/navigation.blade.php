@@ -1,11 +1,11 @@
 <nav class="fixed-top navbar navbar-expand-lg">
     <div class="container-fluid">
         <a class="navbar-brand" href="{{ route('welcome') }}">
-            <img width="32" src="{{ asset('img/logonew.svg') }}" alt="">
+            <img width="32" src="{{ asset('img/logo.svg') }}" alt="">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+            <ion-icon name="menu-outline"></ion-icon>
         </button>
         <div class="collapse navbar-collapse text-end" id="navbarNav">
             <ul class="navbar-nav ms-auto">
@@ -28,8 +28,10 @@
                 </li>
 
             </ul>
-            <ion-icon class="light-btn" name="sunny-outline"></ion-icon>
-            <ion-icon class="dark-btn" name="moon-outline"></ion-icon>
+
+            <ion-icon class="theme_btn light-btn" name="sunny-outline"></ion-icon>
+            <ion-icon class="theme_btn dark-btn" name="moon-outline"></ion-icon>
+
         </div>
     </div>
 </nav>
