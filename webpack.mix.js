@@ -19,6 +19,6 @@ mix.js('resources/js/app.js', 'public/js')
     })
     .sourceMaps()
     .browserSync({
-        proxy: 'portfolio.loc',
+        proxy: 'localhost:8000',
         notify: false
     });
