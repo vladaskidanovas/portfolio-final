@@ -2,10 +2,10 @@
 :BEGIN
 CLS
 
-set DIR=e:
-cd %DIR%\WEBDEV\Homestead
+set DIR=c:
+cd %UserProfile%\Homestead
 
-CHOICE /N /C:12345 /M "Vagrant (1 - UP, 2 - HALT, 3- RELOAD, 4 - PROVISON, 5 - SSH )"%1
+CHOICE /N /C:12345 /M "Vagrant (1 - UP, 2 - HALT, 3- RELOAD, 4 - PROVISION, 5 - SSH )"%1
 IF ERRORLEVEL ==5 GOTO SSHTUNEL
 IF ERRORLEVEL ==4 GOTO PROVISION
 IF ERRORLEVEL ==3 GOTO RELOAD
@@ -28,9 +28,9 @@ ECHO RELOADING...
 vagrant reload
 GOTO END
 
-:PROVISON
+:PROVISION
 ECHO PROVISION...
-vagrant provison
+vagrant provision
 GOTO END
 
 :SSHTUNEL
