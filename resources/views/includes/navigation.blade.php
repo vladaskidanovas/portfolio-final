@@ -2,6 +2,7 @@
     <div class="container-fluid">
         <a class="navbar-brand" href="{{ route('welcome') }}">
             <img width="32" src="{{ asset('img/logo.svg') }}" alt="">
+            <small class="fw-bold">Vladislovas Kidanovas</small class="fw-bold">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">

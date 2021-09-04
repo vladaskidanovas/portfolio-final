@@ -3,8 +3,17 @@
 }
 
 .welcome-page{
+    img {
+        animation:hue 40s ease-in-out infinite;
+        width: 1024px;
+    }
     height: 100%;
+    .heading-name{
+        font-size: 68px;
+    }
 }
+
+
 
 @include media-breakpoint-down(sm) {
 
@@ -13,3 +22,19 @@
 @include media-breakpoint-down(md) {
 
 }
+
+@keyframes hue {
+    0%   {
+        transform: rotate(0deg);
+        filter: hue-rotate(0deg);
+    }
+    50%  {
+        filter: hue-rotate(80deg);
+    }
+    100% {
+        transform: rotate(359deg);
+        filter: hue-rotate(0deg);
+    }
+}
+
+

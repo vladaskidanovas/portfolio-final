@@ -1,12 +1,19 @@
 @extends('layouts.master')
 
 @section('content')
-<div class="container-fluid  mx-auto max-w-screen-lg">
+<div class="container  mx-auto max-w-screen-lg">
     <section class="welcome-page">
-        {{-- <img src="{{ asset('img/test.svg') }}" alt=""> --}}
-        <div class="heading-name">
-
+        <div class="background-wrapper position-fixed top-50 start-50 translate-middle">
+            <img src="{{ asset('img/gradient.png') }}" alt="">
         </div>
+
+
+            <div class="position-absolute top-50 start-50 translate-middle">
+                <div class="heading-name">
+                    HI,I'AM VLAD KIDANOVAS<BR>
+                </div>
+                <p class="text-center">JUNIOR WEB DEVELOPER</p>
+            </div>
 
     </section>
 </div>
