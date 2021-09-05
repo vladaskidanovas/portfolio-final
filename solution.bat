@@ -2,7 +2,7 @@
 :BEGIN
 CLS
 
-set DIR=c:
+cd /D C:\
 cd %UserProfile%\Homestead
 
 CHOICE /N /C:12345 /M "Vagrant (1 - UP, 2 - HALT, 3- RELOAD, 4 - PROVISION, 5 - SSH )"%1

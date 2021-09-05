@@ -1,8 +1,5 @@
 nav{
     padding: 0.5rem 3rem 0.5rem 3rem;
-    ion-icon{
-        font-size: 32px;
-    }
     .navbar-toggler:focus {
         text-decoration: none;
         outline: 0;
@@ -19,7 +16,21 @@ nav{
     }
 
     #theme_btn{
-        font-size: $font-size-base;
+        width: 1.2rem;
+    }
+
+    .navbar-brand {
+        &:hover{
+            color: $primary;
+        }
+        img{
+            width: 32px;
+        }
+        label{
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+        }
     }
 
 }

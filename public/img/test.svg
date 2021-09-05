@@ -207,15 +207,15 @@
     <filter
        inkscape:collect="always"
        style="color-interpolation-filters:sRGB"
-       id="filter1515"
-       x="-0.30393438"
-       width="1.6078688"
-       y="-0.30393438"
-       height="1.6078688">
+       id="filter903"
+       x="-0.3036108"
+       width="1.6072216"
+       y="-0.3036108"
+       height="1.6072216">
       <feGaussianBlur
          inkscape:collect="always"
-         stdDeviation="90.129164"
-         id="feGaussianBlur1517" />
+         stdDeviation="90.033208"
+         id="feGaussianBlur905" />
     </filter>
   </defs>
   <sodipodi:namedview
@@ -279,7 +279,7 @@
        ry="314.19818"
        rx="370.98459" />
     <circle
-       style="opacity:0.83333333;fill:url(#meshgradient104241);fill-opacity:1;stroke-width:0.778218;stroke-linejoin:round;filter:url(#filter1515)"
+       style="opacity:1;fill:url(#meshgradient104241);fill-opacity:1;stroke-width:0.778218;stroke-linejoin:round;filter:url(#filter903)"
        id="path104231"
        cx="281.35858"
        cy="150.35237"

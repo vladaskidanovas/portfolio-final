@@ -8711,9 +8711,6 @@ textarea.form-control-lg {
 nav {
   padding: 0.5rem 3rem 0.5rem 3rem;
 }
-nav ion-icon {
-  font-size: 32px;
-}
 nav .navbar-toggler:focus {
   text-decoration: none;
   outline: 0;
@@ -8728,7 +8725,18 @@ nav .nav-link:hover {
   color: #6574cd !important;
 }
 nav #theme_btn {
-  font-size: 0.9rem;
+  width: 1.2rem;
+}
+nav .navbar-brand:hover {
+  color: #867bfd;
+}
+nav .navbar-brand img {
+  width: 32px;
+}
+nav .navbar-brand label {
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
 }
 
 @media (max-width: 575.98px) {
@@ -8783,10 +8791,10 @@ html body .main {
 .mode-dark nav ion-icon {
   color: #eeeff1;
 }
-.mode-dark nav .dark-btn {
+.mode-dark nav .dark-icon {
   display: none;
 }
-.mode-dark nav .light-btn {
+.mode-dark nav .light-icon {
   display: inline;
 }
 .mode-dark nav .navbar-nav .nav-link {
@@ -8800,10 +8808,10 @@ html body .main {
   background-color: #eeeff1;
   color: #0d1013;
 }
-.mode-light nav .dark-btn {
+.mode-light nav .dark-icon {
   display: inline;
 }
-.mode-light nav .light-btn {
+.mode-light nav .light-icon {
   display: none;
 }
 .mode-light nav .navbar-nav .nav-link {
@@ -8813,33 +8821,42 @@ html body .main {
   color: #0d1013;
 }
 
-.welcome-logo {
-  width: 512px;
-}
-
 .welcome-page {
   height: 100%;
 }
-.welcome-page img {
+.welcome-page .background-wrapper {
+  top: 12.5%;
+  right: 12.5%;
+  filter: blur(5rem);
+  opacity: 0.8;
+}
+.welcome-page .background-wrapper img {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
   -webkit-animation: hue 40s ease-in-out infinite;
           animation: hue 40s ease-in-out infinite;
-  width: 1024px;
 }
 .welcome-page .heading-name {
-  font-size: 68px;
+  font-size: 72px;
+  line-height: 1.1;
 }
 
 @-webkit-keyframes hue {
   0% {
     transform: rotate(0deg);
     filter: hue-rotate(0deg);
+    width: 512px;
   }
   50% {
     filter: hue-rotate(80deg);
+    width: 588px;
   }
   100% {
     transform: rotate(359deg);
     filter: hue-rotate(0deg);
+    width: 512px;
   }
 }
 
@@ -8847,12 +8864,15 @@ html body .main {
   0% {
     transform: rotate(0deg);
     filter: hue-rotate(0deg);
+    width: 512px;
   }
   50% {
     filter: hue-rotate(80deg);
+    width: 588px;
   }
   100% {
     transform: rotate(359deg);
     filter: hue-rotate(0deg);
+    width: 512px;
   }
 }

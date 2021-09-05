@@ -1,3 +1,6 @@
+//common settings
+
+
 .mode-dark{
     background-color: $dark;
     color: $light;
@@ -5,12 +8,14 @@
         ion-icon{
             color: $light;
         }
-        .dark-btn{
+
+        .dark-icon{
             display: none;
         }
-        .light-btn{
+        .light-icon{
             display: inline;
         }
+
         .navbar-nav
         {
             .nav-link {
@@ -25,14 +30,15 @@
         }
     }
 }
+
 .mode-light{
     background-color: $light;
     color: $dark;
     nav{
-        .dark-btn{
+        .dark-icon{
             display: inline;
         }
-        .light-btn{
+        .light-icon{
             display: none;
         }
         .navbar-nav{

@@ -2,7 +2,7 @@
     <div class="container-fluid">
         <a class="navbar-brand" href="{{ route('welcome') }}">
             <img width="32" src="{{ asset('img/logo.svg') }}" alt="">
-            <small class="fw-bold">Vladislovas Kidanovas</small class="fw-bold">
+            <label class="brand-name">Vlad Kidanov</label>
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,8 +30,12 @@
 
             </ul>
 
-            <ion-icon class="theme_btn light-btn" name="sunny-outline"></ion-icon>
-            <ion-icon class="theme_btn dark-btn" name="moon-outline"></ion-icon>
+            <div id="theme_btn">
+                <ion-icon class="light-icon" name="sunny-outline"></ion-icon>
+                <ion-icon class="dark-icon" name="moon-outline"></ion-icon>
+            </div>
+
+
 
         </div>
     </div>
