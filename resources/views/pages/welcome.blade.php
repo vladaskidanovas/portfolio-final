@@ -10,11 +10,11 @@
 
             <div class="position-absolute top-50 start-50 translate-middle">
                 <div class="heading-name">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto quasi quo ullam.
+                    Hello, my name is Vlad. <br> I am web developer & programmer based in Leicester, UK
                 </div>
                 <br>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore, eveniet.</p>
-                <button type="button" class="btn btn-outline-primary">Portfolio</button>
+                <p>Junior web developer & programmer</p>
+                <a href="{{url("/resume")}}" class="btn btn-outline-primary">Portfolio</a>
             </div>
 
     </section>

@@ -1,30 +1,38 @@
 @extends('layouts.master')
 
 @section('content')
-
+<div class="container">
     <section class="about_me">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, in fuga delectus quaerat sunt quibusdam
-        ipsam consectetur iusto aut fugit ut qui ducimus, voluptates atque. Voluptate accusamus hic doloremque quia?
+        <h5>About me</h5>
+        <p>
+            Hello! I’m Vlad Kidanov. <br>
+            Web developer from Leicester, UK. I have rich experience in web site design and building, also I am good at wordpress. I love to talk with you about our unique.
+        </p>
     </section>
 
     <section class="experience_education">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam sunt, ipsum voluptatum consequatur necessitatibus quisquam fugit exercitationem doloremque,
-        commodi magnam perferendis cupiditate quia. Pariatur, accusantium! Dolor illo numquam dolorum modi!
+        <p>Experience</p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam sunt, ipsum voluptatum consequatur necessitatibus quisquam fugit exercitationem doloremque,
+            commodi magnam perferendis cupiditate quia. Pariatur, accusantium! Dolor illo numquam dolorum modi!
+        </p>
     </section>
     <section class="skills">
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur facere corrupti assumenda ipsam tenetur repudiandae ratione excepturi, aut culpa
-        animi nulla aperiam. Aperiam facere totam suscipit voluptas consequatur deleniti nesciunt?
+        <p>Skills</p>
+        <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur facere corrupti assumenda ipsam tenetur repudiandae ratione excepturi, aut culpa
+            animi nulla aperiam. Aperiam facere totam suscipit voluptas consequatur deleniti nesciunt?
+        </p>
     </section>
     <section class="languages">
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur facere corrupti assumenda ipsam tenetur repudiandae ratione excepturi, aut culpa
-        animi nulla aperiam. Aperiam facere totam suscipit voluptas consequatur deleniti nesciunt?
+        <p>languages</p>
+
     </section>
     <section class="knowledge">
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur facere corrupti assumenda ipsam tenetur repudiandae ratione excepturi, aut culpa
-        animi nulla aperiam. Aperiam facere totam suscipit voluptas consequatur deleniti nesciunt?
+        <p>Knowledge</p>
     </section>
     <section class="service">
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur facere corrupti assumenda ipsam tenetur repudiandae ratione excepturi, aut culpa
-        animi nulla aperiam. Aperiam facere totam suscipit voluptas consequatur deleniti nesciunt?
+        <p>My services</p>
     </section>
+</div>
 @stop

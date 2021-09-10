@@ -13,7 +13,7 @@
 
                 <li class="nav-item">
                     <a class="nav-link {{ request()->is('resume') ? 'active' : '' }}" aria-current="page"
-                        href="{{ route('resume') }}">Resume</a>
+                        href="{{ route('resume') }}">About</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link {{ request()->is('portfolio') ? 'active' : '' }}" aria-current="page"
