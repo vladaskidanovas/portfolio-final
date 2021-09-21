@@ -8,12 +8,12 @@
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <ion-icon name="menu-outline"></ion-icon>
         </button>
-        <div class="collapse navbar-collapse text-end" id="navbarNav">
+        <div class="collapse navbar-collapse text-end">
             <ul class="navbar-nav ms-auto">
 
                 <li class="nav-item">
-                    <a class="nav-link {{ request()->is('resume') ? 'active' : '' }}" aria-current="page"
-                        href="{{ route('resume') }}">About</a>
+                    <a class="nav-link {{ request()->is('about') ? 'active' : '' }}" aria-current="page"
+                        href="{{ route('about') }}">About</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link {{ request()->is('portfolio') ? 'active' : '' }}" aria-current="page"
@@ -34,8 +34,6 @@
                 <ion-icon class="light-icon" name="sunny-outline"></ion-icon>
                 <ion-icon class="dark-icon" name="moon-outline"></ion-icon>
             </div>
-
-
 
         </div>
     </div>

@@ -35,9 +35,9 @@ Route::get('/', function () {
     return view('pages.welcome');
 })->name("welcome");
 
-Route::get('/resume', function () {
-    return view('pages.resume');
-})->name('resume');
+Route::get('/about', function () {
+    return view('pages.about');
+})->name('about');
 
 Route::get('/portfolio', function () {
     return view('pages.portfolio');
