@@ -19,6 +19,6 @@ mix.js('resources/js/app.js', 'public/js')
     })
     .sourceMaps()
     .browserSync({
-        proxy: 'localhost:8000',
+        proxy: 'localhost',
         notify: false
-    });
+    }).disableNotifications();

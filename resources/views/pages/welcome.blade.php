@@ -9,12 +9,12 @@
 
 
             <div class="position-absolute top-50 start-50 translate-middle">
-                <div class="heading-name">
+                <div class="welcome-text">
                     Hello, my name is Vlad. <br> I am web developer & programmer based in Leicester, UK
                 </div>
                 <br>
                 <p>Junior web developer & programmer</p>
-                <a href="{{url("/resume")}}" class="btn btn-outline-primary">Portfolio</a>
+                <a href="{{url("/about")}}" class="btn btn-outline-primary">Portfolio</a>
             </div>
 
     </section>

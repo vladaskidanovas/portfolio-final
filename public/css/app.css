@@ -28,7 +28,7 @@
   --bs-info: #6cb2eb;
   --bs-warning: #ffed4a;
   --bs-danger: #e3342f;
-  --bs-light: #eeeff1;
+  --bs-light: #ffffff;
   --bs-dark: #0d1013;
   --bs-font-sans-serif: "Poppins", sans-serif;
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
@@ -2069,15 +2069,15 @@ progress {
 }
 
 .table-light {
-  --bs-table-bg: #eeeff1;
-  --bs-table-striped-bg: #e2e3e5;
+  --bs-table-bg: #ffffff;
+  --bs-table-striped-bg: #f2f2f2;
   --bs-table-striped-color: #000;
-  --bs-table-active-bg: #d6d7d9;
+  --bs-table-active-bg: #e6e6e6;
   --bs-table-active-color: #000;
-  --bs-table-hover-bg: #dcdddf;
+  --bs-table-hover-bg: #ececec;
   --bs-table-hover-color: #000;
   color: #000;
-  border-color: #d6d7d9;
+  border-color: #e6e6e6;
 }
 
 .table-dark {
@@ -3180,32 +3180,32 @@ textarea.form-control-lg {
 
 .btn-light {
   color: #000;
-  background-color: #eeeff1;
-  border-color: #eeeff1;
+  background-color: #ffffff;
+  border-color: #ffffff;
 }
 .btn-light:hover {
   color: #000;
-  background-color: #f1f1f3;
-  border-color: #f0f1f2;
+  background-color: white;
+  border-color: white;
 }
 .btn-check:focus + .btn-light, .btn-light:focus {
   color: #000;
-  background-color: #f1f1f3;
-  border-color: #f0f1f2;
-  box-shadow: 0 0 0 0.25rem rgba(202, 203, 205, 0.5);
+  background-color: white;
+  border-color: white;
+  box-shadow: 0 0 0 0.25rem rgba(217, 217, 217, 0.5);
 }
 .btn-check:checked + .btn-light, .btn-check:active + .btn-light, .btn-light:active, .btn-light.active, .show > .btn-light.dropdown-toggle {
   color: #000;
-  background-color: #f1f2f4;
-  border-color: #f0f1f2;
+  background-color: white;
+  border-color: white;
 }
 .btn-check:checked + .btn-light:focus, .btn-check:active + .btn-light:focus, .btn-light:active:focus, .btn-light.active:focus, .show > .btn-light.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.25rem rgba(202, 203, 205, 0.5);
+  box-shadow: 0 0 0 0.25rem rgba(217, 217, 217, 0.5);
 }
 .btn-light:disabled, .btn-light.disabled {
   color: #000;
-  background-color: #eeeff1;
-  border-color: #eeeff1;
+  background-color: #ffffff;
+  border-color: #ffffff;
 }
 
 .btn-dark {
@@ -3389,27 +3389,27 @@ textarea.form-control-lg {
 }
 
 .btn-outline-light {
-  color: #eeeff1;
-  border-color: #eeeff1;
+  color: #ffffff;
+  border-color: #ffffff;
 }
 .btn-outline-light:hover {
   color: #000;
-  background-color: #eeeff1;
-  border-color: #eeeff1;
+  background-color: #ffffff;
+  border-color: #ffffff;
 }
 .btn-check:focus + .btn-outline-light, .btn-outline-light:focus {
-  box-shadow: 0 0 0 0.25rem rgba(238, 239, 241, 0.5);
+  box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.5);
 }
 .btn-check:checked + .btn-outline-light, .btn-check:active + .btn-outline-light, .btn-outline-light:active, .btn-outline-light.active, .btn-outline-light.dropdown-toggle.show {
   color: #000;
-  background-color: #eeeff1;
-  border-color: #eeeff1;
+  background-color: #ffffff;
+  border-color: #ffffff;
 }
 .btn-check:checked + .btn-outline-light:focus, .btn-check:active + .btn-outline-light:focus, .btn-outline-light:active:focus, .btn-outline-light.active:focus, .btn-outline-light.dropdown-toggle.show:focus {
-  box-shadow: 0 0 0 0.25rem rgba(238, 239, 241, 0.5);
+  box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.5);
 }
 .btn-outline-light:disabled, .btn-outline-light.disabled {
-  color: #eeeff1;
+  color: #ffffff;
   background-color: transparent;
 }
 
@@ -4787,12 +4787,12 @@ textarea.form-control-lg {
 }
 
 .alert-light {
-  color: #5f6060;
-  background-color: #fcfcfc;
-  border-color: #fafafb;
+  color: #666666;
+  background-color: white;
+  border-color: white;
 }
 .alert-light .alert-link {
-  color: #4c4d4d;
+  color: #525252;
 }
 
 .alert-dark {
@@ -5164,17 +5164,17 @@ textarea.form-control-lg {
 }
 
 .list-group-item-light {
-  color: #5f6060;
-  background-color: #fcfcfc;
+  color: #666666;
+  background-color: white;
 }
 .list-group-item-light.list-group-item-action:hover, .list-group-item-light.list-group-item-action:focus {
-  color: #5f6060;
-  background-color: #e3e3e3;
+  color: #666666;
+  background-color: #e6e6e6;
 }
 .list-group-item-light.list-group-item-action.active {
   color: #fff;
-  background-color: #5f6060;
-  border-color: #5f6060;
+  background-color: #666666;
+  border-color: #666666;
 }
 
 .list-group-item-dark {
@@ -6197,10 +6197,10 @@ textarea.form-control-lg {
 }
 
 .link-light {
-  color: #eeeff1;
+  color: #ffffff;
 }
 .link-light:hover, .link-light:focus {
-  color: #f1f2f4;
+  color: white;
 }
 
 .link-dark {
@@ -6582,7 +6582,7 @@ textarea.form-control-lg {
 }
 
 .border-light {
-  border-color: #eeeff1 !important;
+  border-color: #ffffff !important;
 }
 
 .border-dark {
@@ -7411,7 +7411,7 @@ textarea.form-control-lg {
 }
 
 .text-light {
-  color: #eeeff1 !important;
+  color: #ffffff !important;
 }
 
 .text-dark {
@@ -7467,7 +7467,7 @@ textarea.form-control-lg {
 }
 
 .bg-light {
-  background-color: #eeeff1 !important;
+  background-color: #ffffff !important;
 }
 
 .bg-dark {
@@ -10965,10 +10965,10 @@ html body .main {
 
 .mode-dark {
   background-color: #0d1013;
-  color: #eeeff1;
+  color: #ffffff;
 }
 .mode-dark nav ion-icon {
-  color: #eeeff1;
+  color: #ffffff;
 }
 .mode-dark nav .dark-icon {
   display: none;
@@ -10977,14 +10977,14 @@ html body .main {
   display: inline;
 }
 .mode-dark nav .navbar-nav .nav-link {
-  color: #eeeff1;
+  color: #ffffff;
 }
 .mode-dark footer a {
-  color: #eeeff1;
+  color: #ffffff;
 }
 
 .mode-light {
-  background-color: #eeeff1;
+  background-color: #ffffff;
   color: #0d1013;
 }
 .mode-light nav .dark-icon {
@@ -11017,11 +11017,21 @@ html body .main {
   -webkit-animation: hue 40s ease-in-out infinite;
           animation: hue 40s ease-in-out infinite;
 }
-.welcome-page .heading-name {
-  font-size: 72px;
+.welcome-page .welcome-text {
+  font-size: 64px;
   line-height: 1.1;
 }
 
+@media (max-width: 575.98px) {
+  .welcome-page .welcome-text {
+    font-size: 48px;
+  }
+}
+@media (max-width: 767.98px) {
+  .welcome-page .welcome-text {
+    font-size: 48px;
+  }
+}
 @-webkit-keyframes hue {
   0% {
     transform: rotate(0deg);
@@ -11038,7 +11048,6 @@ html body .main {
     width: 512px;
   }
 }
-
 @keyframes hue {
   0% {
     transform: rotate(0deg);
