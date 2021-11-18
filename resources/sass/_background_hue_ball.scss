@@ -1,0 +1,31 @@
+.background-wrapper{
+    top: 25.5%;
+    right: 12.5%;
+    filter: blur(5rem);
+    opacity: 0.8;
+    z-index: -1;
+    img {
+        user-select: none;
+        animation:hue 40s ease-in-out infinite;
+
+    }
+}
+
+@keyframes hue {
+    0%   {
+        transform: rotate(0deg);
+        filter: hue-rotate(0deg);
+        width: 512px;
+    }
+    50%  {
+        filter: hue-rotate(80deg);
+        width: 588px;
+    }
+    100% {
+        transform: rotate(359deg);
+        filter: hue-rotate(0deg);
+        width: 512px;
+    }
+}
+
+

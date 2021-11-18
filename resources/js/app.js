@@ -1,5 +1,3 @@
-const { clippingParents } = require('@popperjs/core');
-
 require('./bootstrap');
 
 class App {
@@ -12,7 +10,7 @@ class App {
     Events() {
 
         document.getElementById('theme_btn').addEventListener('click', (e) => {
-            this.CChangeTheme();
+            this.CChangeTheme(e);
         });
 
         document.addEventListener("mousemove", (e) => {
@@ -27,7 +25,6 @@ class App {
         }else{
             // choose by time
             var time = new Date().toLocaleString('en-US', { hour: 'numeric', hour12: false });
-            console.log(time);
 
             if (time >= 18 || time <= 6) {
                 document.body.className = "mode-dark";
@@ -42,11 +39,13 @@ class App {
     /**
      * Change theme for dark or white and save it to web cache
      */
-    CChangeTheme(){
-
+    CChangeTheme(e){
+        console.log();
         if (document.body.className == "mode-dark") {
+            e.target.setAttribute("name", "sunny-outline");
             document.body.className = "mode-light";
         }else{
+            e.target.setAttribute("name", "moon-outline");
             document.body.className = "mode-dark";
         }
 
@@ -58,16 +57,18 @@ class App {
     */
     WPBackgroundParalax(e){
         const elem = document.querySelector(".background-wrapper");
-        let _w = window.innerWidth/2;
-        let _h = window.innerHeight/2;
-
-        let _mouseX = e.clientX;
-        let _mouseY = e.clientY;
-
-        let top = `${(_mouseX - _w) / _w * 5}%`;
-        let left = `${(_mouseY - _h) / _h * 5}%`;
-
-        elem.style.transform = 'translate(' + top +','+ left +' )';
+        if (elem) {     
+            let _w = window.innerWidth/2;
+            let _h = window.innerHeight/2;
+    
+            let _mouseX = e.clientX;
+            let _mouseY = e.clientY;
+    
+            let top = `${(_mouseX - _w) / _w * 5}%`;
+            let left = `${(_mouseY - _h) / _h * 5}%`;
+    
+            elem.style.transform = 'translate(' + top +','+ left +' )';
+        }
     }
 
 

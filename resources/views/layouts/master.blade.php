@@ -8,6 +8,9 @@
 
     <!-- Page content -->
     <div class="main">
+        <div class="background-wrapper position-fixed">
+            <img draggable="false" src="{{ asset('img/gradient.png') }}" alt="">
+        </div>
         @yield('content')
     </div>
 

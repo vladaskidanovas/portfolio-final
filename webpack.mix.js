@@ -20,5 +20,5 @@ mix.js('resources/js/app.js', 'public/js')
     .sourceMaps()
     .browserSync({
         proxy: 'localhost',
-        notify: false
+        notify: false,
     }).disableNotifications();

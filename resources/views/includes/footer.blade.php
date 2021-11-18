@@ -4,6 +4,8 @@
             <a class="p-2" href="#"><ion-icon name="logo-github"></ion-icon></a>
             <a class="p-2" href="#"><ion-icon name="logo-linkedin"></ion-icon></a>
             <a class="p-2" href="#"><ion-icon name="mail-outline"></ion-icon></a>
+            <a class="p-2" id="theme_btn"><ion-icon name="sunny-outline"></ion-icon></a>
+            <!-- <ion-icon class="dark-icon" name="moon-outline"></ion-icon> -->
         </div>
 
 

@@ -22,7 +22,13 @@
 // Dark mode
 @import 'dark_mode';
 
+@import 'background_hue_ball';
+
 // Welcome page
 @import 'pages/welcome';
 // Resume page
 @import 'pages/resume';
+
+@-ms-viewport{
+    width: device-width;
+  }

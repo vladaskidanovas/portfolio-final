@@ -20,8 +20,8 @@ $teal: #4dc0b5;
 $cyan: #6cb2eb;
 $primary: #867bfd;
 $secondary: #B00020;
-$light:#ffffff;
-$dark:#0d1013;
+$light: darken(#ffffff, 0.7%);
+$dark: darken(#0d1013, 1%);
 
 //Grid breakoints
 $grid-breakpoints: (

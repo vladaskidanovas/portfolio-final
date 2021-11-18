@@ -1,9 +1,12 @@
 nav{
     padding: 0.5rem 3rem 0.5rem 3rem;
-    .navbar-toggler:focus {
-        text-decoration: none;
-        outline: 0;
-        box-shadow: none;
+    .navbar-toggler{
+        font-size: 31px;
+        &:focus {
+            text-decoration: none;
+            outline: 0;
+            box-shadow: none;
+        }
     }
 
     .nav-link{
@@ -14,11 +17,7 @@ nav{
             color: $indigo!important;
         }
     }
-
-    #theme_btn{
-        width: 1.2rem;
-    }
-
+    
     .navbar-brand {
         &:hover{
             color: $primary;
