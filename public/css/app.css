@@ -38,7 +38,7 @@
   --bs-warning: #ffed4a;
   --bs-danger: #e3342f;
   --bs-light: #fdfdfd;
-  --bs-dark: #0b0d10;
+  --bs-dark: #000000;
   --bs-primary-rgb: 134, 123, 253;
   --bs-secondary-rgb: 176, 0, 32;
   --bs-success-rgb: 56, 193, 114;
@@ -46,7 +46,7 @@
   --bs-warning-rgb: 255, 237, 74;
   --bs-danger-rgb: 227, 52, 47;
   --bs-light-rgb: 253, 253, 253;
-  --bs-dark-rgb: 11, 13, 16;
+  --bs-dark-rgb: 0, 0, 0;
   --bs-white-rgb: 255, 255, 255;
   --bs-black-rgb: 0, 0, 0;
   --bs-body-color-rgb: 33, 37, 41;
@@ -2107,15 +2107,15 @@ progress {
 }
 
 .table-dark {
-  --bs-table-bg: #0b0d10;
-  --bs-table-striped-bg: #17191c;
+  --bs-table-bg: #000000;
+  --bs-table-striped-bg: #0d0d0d;
   --bs-table-striped-color: #fff;
-  --bs-table-active-bg: #232528;
+  --bs-table-active-bg: #1a1a1a;
   --bs-table-active-color: #fff;
-  --bs-table-hover-bg: #1d1f22;
+  --bs-table-hover-bg: #131313;
   --bs-table-hover-color: #fff;
   color: #fff;
-  border-color: #232528;
+  border-color: #1a1a1a;
 }
 
 .table-responsive {
@@ -3238,32 +3238,32 @@ textarea.form-control-lg {
 
 .btn-dark {
   color: #fff;
-  background-color: #0b0d10;
-  border-color: #0b0d10;
+  background-color: #000000;
+  border-color: #000000;
 }
 .btn-dark:hover {
   color: #fff;
-  background-color: #090b0e;
-  border-color: #090a0d;
+  background-color: black;
+  border-color: black;
 }
 .btn-check:focus + .btn-dark, .btn-dark:focus {
   color: #fff;
-  background-color: #090b0e;
-  border-color: #090a0d;
-  box-shadow: 0 0 0 0.25rem rgba(48, 49, 52, 0.5);
+  background-color: black;
+  border-color: black;
+  box-shadow: 0 0 0 0.25rem rgba(38, 38, 38, 0.5);
 }
 .btn-check:checked + .btn-dark, .btn-check:active + .btn-dark, .btn-dark:active, .btn-dark.active, .show > .btn-dark.dropdown-toggle {
   color: #fff;
-  background-color: #090a0d;
-  border-color: #080a0c;
+  background-color: black;
+  border-color: black;
 }
 .btn-check:checked + .btn-dark:focus, .btn-check:active + .btn-dark:focus, .btn-dark:active:focus, .btn-dark.active:focus, .show > .btn-dark.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.25rem rgba(48, 49, 52, 0.5);
+  box-shadow: 0 0 0 0.25rem rgba(38, 38, 38, 0.5);
 }
 .btn-dark:disabled, .btn-dark.disabled {
   color: #fff;
-  background-color: #0b0d10;
-  border-color: #0b0d10;
+  background-color: #000000;
+  border-color: #000000;
 }
 
 .btn-outline-primary {
@@ -3442,27 +3442,27 @@ textarea.form-control-lg {
 }
 
 .btn-outline-dark {
-  color: #0b0d10;
-  border-color: #0b0d10;
+  color: #000000;
+  border-color: #000000;
 }
 .btn-outline-dark:hover {
   color: #fff;
-  background-color: #0b0d10;
-  border-color: #0b0d10;
+  background-color: #000000;
+  border-color: #000000;
 }
 .btn-check:focus + .btn-outline-dark, .btn-outline-dark:focus {
-  box-shadow: 0 0 0 0.25rem rgba(11, 13, 16, 0.5);
+  box-shadow: 0 0 0 0.25rem rgba(0, 0, 0, 0.5);
 }
 .btn-check:checked + .btn-outline-dark, .btn-check:active + .btn-outline-dark, .btn-outline-dark:active, .btn-outline-dark.active, .btn-outline-dark.dropdown-toggle.show {
   color: #fff;
-  background-color: #0b0d10;
-  border-color: #0b0d10;
+  background-color: #000000;
+  border-color: #000000;
 }
 .btn-check:checked + .btn-outline-dark:focus, .btn-check:active + .btn-outline-dark:focus, .btn-outline-dark:active:focus, .btn-outline-dark.active:focus, .btn-outline-dark.dropdown-toggle.show:focus {
-  box-shadow: 0 0 0 0.25rem rgba(11, 13, 16, 0.5);
+  box-shadow: 0 0 0 0.25rem rgba(0, 0, 0, 0.5);
 }
 .btn-outline-dark:disabled, .btn-outline-dark.disabled {
-  color: #0b0d10;
+  color: #000000;
   background-color: transparent;
 }
 
@@ -4993,12 +4993,12 @@ textarea.form-control-lg {
 }
 
 .alert-dark {
-  color: #07080a;
-  background-color: #cecfcf;
-  border-color: #b6b6b7;
+  color: black;
+  background-color: #cccccc;
+  border-color: #b3b3b3;
 }
 .alert-dark .alert-link {
-  color: #060608;
+  color: black;
 }
 
 @-webkit-keyframes progress-bar-stripes {
@@ -5375,17 +5375,17 @@ textarea.form-control-lg {
 }
 
 .list-group-item-dark {
-  color: #07080a;
-  background-color: #cecfcf;
+  color: black;
+  background-color: #cccccc;
 }
 .list-group-item-dark.list-group-item-action:hover, .list-group-item-dark.list-group-item-action:focus {
-  color: #07080a;
-  background-color: #b9baba;
+  color: black;
+  background-color: #b8b8b8;
 }
 .list-group-item-dark.list-group-item-action.active {
   color: #fff;
-  background-color: #07080a;
-  border-color: #07080a;
+  background-color: black;
+  border-color: black;
 }
 
 .btn-close {
@@ -6480,10 +6480,10 @@ textarea.form-control-lg {
 }
 
 .link-dark {
-  color: #0b0d10;
+  color: #000000;
 }
 .link-dark:hover, .link-dark:focus {
-  color: #090a0d;
+  color: black;
 }
 
 .ratio {
@@ -6912,7 +6912,7 @@ textarea.form-control-lg {
 }
 
 .border-dark {
-  border-color: #0b0d10 !important;
+  border-color: #000000 !important;
 }
 
 .border-white {
@@ -11362,13 +11362,16 @@ html body .main {
   padding: 4rem 0;
   height: 100%;
 }
+html body a {
+  text-decoration: none;
+}
 
 .mode-dark {
-  background-color: #0b0d10;
+  background-color: #000000;
   color: #fdfdfd;
 }
 .mode-dark nav {
-  background-color: #0b0d10;
+  background-color: #000000;
 }
 .mode-dark nav ion-icon {
   color: #fdfdfd;
@@ -11376,8 +11379,12 @@ html body .main {
 .mode-dark nav .navbar-nav .nav-link {
   color: #fdfdfd;
 }
+.mode-dark .card {
+  background-color: #050505;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+}
 .mode-dark footer {
-  background-color: #0b0d10;
+  background-color: #000000;
 }
 .mode-dark footer a {
   color: #fdfdfd;
@@ -11385,19 +11392,19 @@ html body .main {
 
 .mode-light {
   background-color: #fdfdfd;
-  color: #0b0d10;
+  color: #000000;
 }
 .mode-light nav {
   background-color: #fdfdfd;
 }
 .mode-light nav .navbar-nav .nav-link {
-  color: #0b0d10;
+  color: #000000;
 }
 .mode-light footer {
   background-color: #fdfdfd;
 }
 .mode-light footer a {
-  color: #0b0d10;
+  color: #000000;
 }
 
 .background-wrapper {
@@ -11467,10 +11474,6 @@ html body .main {
     font-size: 48px;
   }
 }
-.about {
-  padding-top: 150px;
-  padding-bottom: 50px;
-}
 .about h1, .about .h1 {
   font-weight: 500;
 }
@@ -11521,6 +11524,10 @@ html body .main {
   }
 }
 @media (min-width: 768px) {
+  .about {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
   .about .about_me {
     flex-direction: row;
   }
@@ -11565,6 +11572,30 @@ html body .main {
   .about .about_my_experience {
     padding-top: 50px;
     flex-direction: row;
+  }
+}
+@media (max-width: 767.98px) {
+  .portfolio {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+@media (min-width: 768px) {
+  .portfolio {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
+@media (max-width: 767.98px) {
+  .contact {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+@media (min-width: 768px) {
+  .contact {
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
 }
 @-ms-viewport {

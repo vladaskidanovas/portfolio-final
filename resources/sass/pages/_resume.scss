@@ -1,6 +1,4 @@
 .about{
-    padding-top: 150px;
-    padding-bottom: 50px;
     h1{
         font-weight: 500;
     }
@@ -63,6 +61,8 @@
 }
 @include media-breakpoint-up(md) {
     .about{
+        padding-top: 50px;
+        padding-bottom: 50px;
         .about_me{
             flex-direction: row;
             img{

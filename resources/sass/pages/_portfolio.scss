@@ -1,0 +1,28 @@
+// xs: 0,
+// sm: 576px,
+// md: 768px,
+// lg: 992px,
+// xl: 1200px,
+// xxl: 1400px
+
+@include media-breakpoint-down(md) {
+    .portfolio{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
+
+@include media-breakpoint-up(md) {
+    .portfolio{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+}
+
+@include media-breakpoint-up(lg) {
+
+}
+
+@include media-breakpoint-up(xl) {
+
+}

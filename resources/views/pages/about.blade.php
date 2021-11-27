@@ -22,16 +22,20 @@
             <section class="about_my_experience">
                 <div class="experience">
                     <h1>Experience</h1>
-                    <p>
-                        ipsum dolor sit amet consectetur adipisicing elit. Numquam sunt, ipsum voluptatum consequatur
-                        necessitatibus quisquam fugit exercitationem doloremque,
-                        commodi magnam perferendis cupiditate quia. Pariatur, accusantium! Dolor illo numquam dolorum
-                        modi!
-                    </p>
+                    <section>
+                        <small>2018 - present</small>
+                        <div class="bold">Self employed</div>
+                        <span>Made WordPress websites for small business.</span>
+                    </section>
+                    <section>
+                        <small>2016 - 2018</small>
+                        <div class="bold">Software Engineer - UAB "SALDA" Lithuania</div>
+                        <span>Worked as software engineer, collaborate with team on the execution of ideas.</span>
+                    </section>
                 </div>
                 <div class="skills">
                     <div class="coding">
-                        <p>Skills</p>
+                        <h1>Skills</h1>
                         <span class="badge bg-primary mb-1 fs-6">JavaScript</span>
                         <span class="badge bg-primary mb-1 fs-6">MySQL</span>
                         <span class="badge bg-primary mb-1 fs-6">Docker</span>
@@ -45,13 +49,13 @@
                         <span class="badge bg-primary mb-1 fs-6">Linux</span>
                     </div>
                     <div class="languages">
-                        <p>Languages</p>
+                        <h2>Languages</h2>
                         <span class="badge bg-primary mb-1 fs-6">English</span>
                         <span class="badge bg-primary mb-1 fs-6">Lithuanin</span>
                         <span class="badge bg-primary mb-1 fs-6">Russian</span>
                     </div>
                     <div class="knowledge">
-                        <p>Knowledge</p>
+                        <h2>Knowledge</h2>
                     </div>
                 </div>
             </section>

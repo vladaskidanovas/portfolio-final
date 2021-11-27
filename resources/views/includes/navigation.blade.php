@@ -24,8 +24,8 @@
                 href="{{ route('blog') }}">Blog</a>
                 </li> --}}
                 <li class="nav-item">
-                    <a class="nav-link {{ request()->is('contacts') ? 'active' : '' }}" aria-current="page"
-                        href="{{ route('contacts') }}">Contacts</a>
+                    <a class="nav-link {{ request()->is('contact') ? 'active' : '' }}" aria-current="page"
+                        href="{{ route('contact') }}">Contact</a>
                 </li>
             </ul>
 

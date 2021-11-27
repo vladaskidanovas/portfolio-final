@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ContactController;
+use App\Mail\ContactForm;
 
 /*
 |--------------------------------------------------------------------------
@@ -47,6 +49,6 @@ Route::get('/blog', function () {
     return view('pages.blog');
 })->name('blog');
 
-Route::get('/contacts', function () {
-    return view('pages.contacts');
-})->name('contacts');
+Route::get('/contact', [ContactController::class, 'index'])->name('contact');
+
+Route::post('/send_message', [ContactController::class, 'send_message']);
