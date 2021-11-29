@@ -25,7 +25,7 @@
                     <section>
                         <small>2018 - present</small>
                         <div class="bold">Self employed</div>
-                        <span>Made WordPress websites for small business.</span>
+                        <span>Making WordPress websites for small business.</span>
                     </section>
                     <section>
                         <small>2016 - 2018</small>
@@ -59,7 +59,7 @@
                     </div>
                 </div>
             </section>
-          
+
         </div>
     </div>
 
