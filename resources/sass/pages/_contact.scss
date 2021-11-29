@@ -18,12 +18,21 @@
         padding-bottom: 50px;
         .card{
             height: 500px;
+            .card-title{
+                font-size: 3rem;
+            }
         }
     }
 }
 
 @include media-breakpoint-up(lg) {
-
+    .contact{
+        .card{
+            .card-title{
+                font-size: 5rem;
+            }
+        }
+    }
 }
 
 @include media-breakpoint-up(xl) {
