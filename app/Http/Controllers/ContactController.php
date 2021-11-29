@@ -39,7 +39,7 @@ class ContactController extends Controller
             return redirect('/contact')->withErrors($validator)->withInput();
         }
 
-        // Mail::to('vladaskidanovas@gmail.com')->send(new ContactForm($request->all()));
+        Mail::to('vladaskidanovas@gmail.com')->send(new ContactForm($request->all()));
 
         return redirect('/contact')->with('status', 'Your message has been delivered');
 
