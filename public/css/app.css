@@ -11313,22 +11313,6 @@ nav .navbar-brand label {
   nav {
     padding: 0;
   }
-  nav #navbarNav {
-    overflow: hidden;
-    transition: 0.35s;
-  }
-  nav #navbarNav.hidden {
-    height: 0;
-    visibility: hidden;
-  }
-  nav #navbarNav.show {
-    height: 100px;
-    visibility: visible;
-  }
-  nav #navbarNav.collapse:not(.show) {
-    display: block;
-    height: 0;
-  }
   nav .nav-link {
     font-size: 1.2rem;
   }

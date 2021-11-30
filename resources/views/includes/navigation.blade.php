@@ -4,7 +4,7 @@
             <img width="32" src="{{ asset('img/logo.svg') }}" alt="">
             <label class="brand-name">Vlad Kidanov</label>
         </a>
-        <button id="menuToggle" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-list"
                  viewBox="0 0 16 16">
