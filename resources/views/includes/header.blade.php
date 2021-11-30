@@ -9,6 +9,8 @@
     <link rel="icon" type="image/png" href="{{ asset('img/favicon-96.png') }}" sizes="96x96">
     <link href="{{ url('/css/app.css?v=' . date('His', filemtime(public_path('/css/app.css')))) }}" rel="stylesheet">
     <script src="{{ url('/js/app.js?v=' . date('His', filemtime(public_path('/js/app.js')))) }}"></script>
+    <script src="{{ url('/js/bootstrap.bundle.min.js') }}"></script>
+
     <title>Vlad Kidanov - web developer</title>
 
 </head>
