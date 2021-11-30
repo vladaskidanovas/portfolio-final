@@ -17,7 +17,7 @@ mix.js('resources/js/app.js', 'public/js')
     .options({
         postCss: [ autoprefixer() ],
     })
-    .sourceMaps()
+    // .sourceMaps()
     .browserSync({
         proxy: 'localhost',
         notify: false,

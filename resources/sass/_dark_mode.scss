@@ -24,6 +24,12 @@
         background-color: $dark;
         a {
             color: $light;
+            .moony{
+                display: none;
+            }
+            .sunny{
+                display: inline;
+            }
         }
     }
 }
@@ -44,6 +50,12 @@
         background-color: $light;
         a {
             color: $dark;
+            .moony{
+                display: inline;
+            }
+            .sunny{
+                display: none;
+            }
         }
     }
 }

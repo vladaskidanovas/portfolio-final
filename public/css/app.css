@@ -11389,6 +11389,12 @@ html body a {
 .mode-dark footer a {
   color: #fdfdfd;
 }
+.mode-dark footer a .moony {
+  display: none;
+}
+.mode-dark footer a .sunny {
+  display: inline;
+}
 
 .mode-light {
   background-color: #fdfdfd;
@@ -11405,6 +11411,12 @@ html body a {
 }
 .mode-light footer a {
   color: #000000;
+}
+.mode-light footer a .moony {
+  display: inline;
+}
+.mode-light footer a .sunny {
+  display: none;
 }
 
 .background-wrapper {
@@ -11572,6 +11584,46 @@ html body a {
   .about .about_my_experience {
     padding-top: 50px;
     flex-direction: row;
+  }
+}
+.portfolio .card {
+  overflow: hidden;
+}
+.portfolio .card .card-img-top {
+  overflow: hidden;
+}
+.portfolio .card .card-img-top .img_lq {
+  width: 100%;
+  filter: blur(20px);
+  transform: scale(1.05);
+}
+.portfolio .card .card-img-top .img_hq {
+  width: 100%;
+  -webkit-animation-name: blurtonormal;
+          animation-name: blurtonormal;
+  -webkit-animation-duration: 0.5s;
+          animation-duration: 0.5s;
+}
+
+@-webkit-keyframes blurtonormal {
+  from {
+    filter: blur(20px);
+    transform: scale(1.05);
+  }
+  to {
+    filter: blur(0);
+    transform: scale(1);
+  }
+}
+
+@keyframes blurtonormal {
+  from {
+    filter: blur(20px);
+    transform: scale(1.05);
+  }
+  to {
+    filter: blur(0);
+    transform: scale(1);
   }
 }
 @media (max-width: 767.98px) {
