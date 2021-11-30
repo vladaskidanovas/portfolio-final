@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     @include('includes.header')
-<body class="mode-dark">
+<body>
 
     <!-- Side navigation -->
     @include('includes.navigation')

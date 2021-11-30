@@ -28,17 +28,18 @@ var App = /*#__PURE__*/function () {
 
       document.getElementById('theme_btn').addEventListener('click', function (e) {
         _this.CChangeTheme(e);
-      }); // document.getElementById('menuToggle').addEventListener('click', ()=>{
-      //     var x = document.getElementById("navbarNav");
-      //     if (x.classList.contains("show")) {
-      //         x.classList.add("hidden")
-      //         x.classList.remove("show")
-      //     } else {
-      //         x.classList.add("show")
-      //         x.classList.remove("hidden")
-      //     }
-      // });
+      });
+      document.getElementById('menuToggle').addEventListener('click', function () {
+        var x = document.getElementById("navbarNav");
 
+        if (x.classList.contains("show")) {
+          x.classList.add("hidden");
+          x.classList.remove("show");
+        } else {
+          x.classList.add("show");
+          x.classList.remove("hidden");
+        }
+      });
       document.addEventListener("mousemove", function (e) {
         _this.WPBackgroundParalax(e);
       });
@@ -109,8 +110,11 @@ document.addEventListener("DOMContentLoaded", function () {
   var app = new App();
 });
 window.addEventListener('load', function () {
-  document.querySelector(".img_lq").className += " d-none";
-  document.querySelector(".img_hq").className = "img_hq";
+  //ifexist
+  if (document.querySelector(".img_lq") != null || document.querySelector(".img_hq") != null) {
+    document.querySelector(".img_lq").className += " d-none";
+    document.querySelector(".img_hq").className = "img_hq";
+  }
 });
 
 /***/ }),

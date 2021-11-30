@@ -34,6 +34,22 @@ nav {
 @include media-breakpoint-down(lg) {
     nav {
         padding: 0;
+        #navbarNav {
+            overflow: hidden;
+            transition: 0.35s;
+            &.hidden {
+                height: 0;
+                visibility: hidden;
+            }
+            &.show {
+                height: 100px;
+                visibility: visible;
+            }
+            &.collapse:not(.show) {
+                display: block;
+                height: 0;
+            }
+        }
         .nav-link {
             font-size: 1.2rem;
         }

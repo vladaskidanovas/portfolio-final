@@ -14,16 +14,16 @@ class App {
             this.CChangeTheme(e);
         });
 
-        // document.getElementById('menuToggle').addEventListener('click', ()=>{
-        //     var x = document.getElementById("navbarNav");
-        //     if (x.classList.contains("show")) {
-        //         x.classList.add("hidden")
-        //         x.classList.remove("show")
-        //     } else {
-        //         x.classList.add("show")
-        //         x.classList.remove("hidden")
-        //     }
-        // });
+        document.getElementById('menuToggle').addEventListener('click', ()=>{
+            var x = document.getElementById("navbarNav");
+            if (x.classList.contains("show")) {
+                x.classList.add("hidden")
+                x.classList.remove("show")
+            } else {
+                x.classList.add("show")
+                x.classList.remove("hidden")
+            }
+        });
 
         document.addEventListener("mousemove", (e) => {
             this.WPBackgroundParalax(e);
@@ -93,6 +93,10 @@ class App {
 
 
 window.addEventListener('load', () => {
-    document.querySelector(".img_lq").className += " d-none";
-    document.querySelector(".img_hq").className = "img_hq";
+    //ifexist
+
+    if (document.querySelector(".img_lq") != null || document.querySelector(".img_hq") != null) {
+        document.querySelector(".img_lq").className += " d-none";
+        document.querySelector(".img_hq").className = "img_hq";
+    }
 });
