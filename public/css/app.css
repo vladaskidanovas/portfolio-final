@@ -11370,68 +11370,6 @@ html body a {
   text-decoration: none;
 }
 
-.mode-dark {
-  background-color: #000000;
-  color: #fdfdfd;
-}
-.mode-dark nav {
-  background-color: #000000;
-}
-.mode-dark nav svg {
-  color: #fdfdfd;
-  font-size: 32rem;
-}
-.mode-dark nav .navbar-nav {
-  background-color: #000000;
-}
-.mode-dark nav .navbar-nav .nav-link {
-  background-color: #000000;
-  color: #fdfdfd;
-}
-.mode-dark .card {
-  background-color: #050505;
-  border: 1px solid rgba(255, 255, 255, 0.125);
-}
-.mode-dark footer {
-  background-color: #000000;
-}
-.mode-dark footer a {
-  color: #fdfdfd;
-}
-.mode-dark footer a .moony {
-  display: none;
-}
-.mode-dark footer a .sunny {
-  display: inline;
-}
-
-.mode-light {
-  background-color: #fdfdfd;
-  color: #000000;
-}
-.mode-light nav {
-  background-color: #fdfdfd;
-}
-.mode-light nav .navbar-nav {
-  background-color: #fdfdfd;
-}
-.mode-light nav .navbar-nav .nav-link {
-  background-color: #fdfdfd;
-  color: #000000;
-}
-.mode-light footer {
-  background-color: #fdfdfd;
-}
-.mode-light footer a {
-  color: #000000;
-}
-.mode-light footer a .moony {
-  display: inline;
-}
-.mode-light footer a .sunny {
-  display: none;
-}
-
 .background-wrapper {
   top: 25.5%;
   right: 12.5%;
