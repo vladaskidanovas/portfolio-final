@@ -1,4 +1,4 @@
-<nav class="fixed-top navbar navbar-expand-lg navbar-light bg-light">
+<nav class="fixed-top navbar navbar-expand-lg">
     <div class="container-fluid">
         <a class="navbar-brand" href="{{ route('welcome') }}">
             <img width="32" src="{{ asset('img/logo.svg') }}" alt="">

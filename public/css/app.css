@@ -11397,11 +11397,7 @@ html body a {
   color: #fdfdfd;
   font-size: 32rem;
 }
-.mode-dark nav .navbar-nav {
-  background-color: #000000;
-}
 .mode-dark nav .navbar-nav .nav-link {
-  background-color: #000000;
   color: #fdfdfd;
 }
 .mode-dark .card {
@@ -11428,11 +11424,7 @@ html body a {
 .mode-light nav {
   background-color: #fdfdfd;
 }
-.mode-light nav .navbar-nav {
-  background-color: #fdfdfd;
-}
 .mode-light nav .navbar-nav .nav-link {
-  background-color: #fdfdfd;
   color: #000000;
 }
 .mode-light footer {
