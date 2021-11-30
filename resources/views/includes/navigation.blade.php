@@ -10,8 +10,8 @@
               </svg>
           </button>
 
-        <div class="collapse navbar-collapse text-end" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
 
                 <li class="nav-item">
                     <a class="nav-link {{ request()->is('about') ? 'active' : '' }}"
