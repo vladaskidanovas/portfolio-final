@@ -1,41 +1,42 @@
 //common settings
-.mode-dark{
-    background-color: $dark;
-    color: $light;
+// .mode-dark{
+//     background-color: $dark;
+//     color: $light;
 
-    nav{
-        background-color: $dark;
-        svg{
-            color: $light;
-            font-size: 32rem;
-        }
-        .navbar-nav
-        {
-            background-color: $dark;
-            .nav-link {
-                background-color: $dark;
-                color: $light;
-            }
-        }
-    }
-    .card{
-        background-color: lighten($dark, 2%);
-        border: 1px solid rgba(255, 255, 255, 0.125);
-    }
+//     nav{
+//         background-color: $dark;
+//         svg{
+//             color: $light;
+//             font-size: 32rem;
+//         }
+//         .navbar-nav
+//         {
+//             background-color: $dark;
+//             .nav-link {
+//                 background-color: $dark;
+//                 color: $light;
+//             }
+//         }
+//     }
 
-    footer{
-        background-color: $dark;
-        a {
-            color: $light;
-            .moony{
-                display: none;
-            }
-            .sunny{
-                display: inline;
-            }
-        }
-    }
-}
+//     .card{
+//         background-color: lighten($dark, 2%);
+//         border: 1px solid rgba(255, 255, 255, 0.125);
+//     }
+
+//     footer{
+//         background-color: $dark;
+//         a {
+//             color: $light;
+//             .moony{
+//                 display: none;
+//             }
+//             .sunny{
+//                 display: inline;
+//             }
+//         }
+//     }
+// }
 
 .mode-light{
     background-color: $light;
