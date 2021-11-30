@@ -1,5 +1,4 @@
 nav{
-    padding: 0.5rem 3rem 0.5rem 3rem;
     .navbar-toggler{
         &:focus {
             text-decoration: none;
@@ -50,6 +49,7 @@ nav{
 
 @include media-breakpoint-down(lg) {
     nav{
+        padding: 0;
         .nav-link{
             font-size: 1.2rem;
         }
@@ -57,9 +57,7 @@ nav{
 }
 @include media-breakpoint-up(lg) {
     nav{
-        padding-left: 0.25rem;
-        padding-right: 0.25rem;
-
+        padding: 0.5rem 3rem 0.5rem 3rem;
         #navbarNav{
             &.hidden{
                 visibility: visible;

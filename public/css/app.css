@@ -11284,9 +11284,6 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-nav {
-  padding: 0.5rem 3rem 0.5rem 3rem;
-}
 nav .navbar-toggler:focus {
   text-decoration: none;
   outline: 0;
@@ -11325,14 +11322,16 @@ nav .navbar-brand label {
 }
 
 @media (max-width: 991.98px) {
+  nav {
+    padding: 0;
+  }
   nav .nav-link {
     font-size: 1.2rem;
   }
 }
 @media (min-width: 992px) {
   nav {
-    padding-left: 0.25rem;
-    padding-right: 0.25rem;
+    padding: 0.5rem 3rem 0.5rem 3rem;
   }
   nav #navbarNav.hidden {
     visibility: visible;
