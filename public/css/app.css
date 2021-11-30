@@ -11294,12 +11294,10 @@ nav #navbarNav {
   transition: 0.35s;
 }
 nav #navbarNav.hidden {
-  height: 0;
-  visibility: hidden;
+  display: none;
 }
 nav #navbarNav.show {
-  height: 100px;
-  visibility: visible;
+  display: block;
 }
 nav #navbarNav .nav-link {
   padding: 0 1.5rem 0 1.5rem !important;
@@ -11308,9 +11306,6 @@ nav #navbarNav .nav-link {
 nav #navbarNav .nav-link:hover {
   transition: color 0.5s ease;
   color: #6574cd !important;
-}
-nav #navbarNav.collapse:not(.show) {
-  display: block;
 }
 nav .navbar-brand:hover {
   color: #867bfd;
@@ -11335,13 +11330,6 @@ nav .navbar-brand label {
 @media (min-width: 992px) {
   nav {
     padding: 0.5rem 3rem 0.5rem 3rem;
-  }
-  nav #navbarNav.hidden {
-    visibility: visible;
-    height: auto;
-  }
-  nav #navbarNav.show {
-    height: auto;
   }
   nav #navbarNav .nav-link {
     font-size: 1rem;

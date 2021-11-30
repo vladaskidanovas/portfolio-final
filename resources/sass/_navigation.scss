@@ -11,12 +11,14 @@ nav{
         overflow: hidden;
         transition: 0.35s;
         &.hidden{
-            height: 0;
-            visibility: hidden;
+            // height: 0;
+            // visibility: hidden;
+            display: none;
         }
         &.show{
-            height: 100px;
-            visibility: visible;
+            // height: 100px;
+            // visibility: visible;
+            display: block;
         }
         .nav-link{
             padding: 0 1.5rem 0 1.5rem!important;
@@ -27,9 +29,7 @@ nav{
                 color: $indigo!important;
             }
         }
-        &.collapse:not(.show){
-            display: block;
-        }
+
     }
 
 
@@ -63,11 +63,11 @@ nav{
         padding: 0.5rem 3rem 0.5rem 3rem;
         #navbarNav{
             &.hidden{
-                visibility: visible;
-                height: auto;
+                // visibility: visible;
+                // height: auto;
             }
             &.show{
-                height: auto;
+                // height: auto;
             }
             .nav-link{
                 font-size: 1rem;
