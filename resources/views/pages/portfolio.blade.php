@@ -4,7 +4,7 @@
 <div class="container portfolio">
     <div class="card">
         <div class="card-img-top">
-            <img class="img_lq" src="{{ asset('img/ledecorate_page_lq.jpg') }}">
+            <img class="img_lq" src="{{ asset('img/ledecorate_page_lq.jpeg') }}">
             <img class="img_hq d-none" src="{{ asset('img/ledecorate_page_hq.png') }}">
         </div>
         <div class="card-body">

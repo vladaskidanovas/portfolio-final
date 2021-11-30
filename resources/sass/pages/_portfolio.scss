@@ -11,24 +11,13 @@
             .img_hq{
                 width: 100%;
                 animation-name: blurtonormal;
-                animation-duration: 0.5s;
+                animation-duration: 0.3s;
             }
         }
     }
 
 }
 
-
-@keyframes blurtonormal {
-    from {
-        filter: blur(20px);
-        transform: scale(1.05);
-    }
-    to {
-        filter: blur(0);
-        transform: scale(1);
-    }
-  }
 
 
 // xs: 0,

@@ -20,8 +20,6 @@ var App = /*#__PURE__*/function () {
 
     this.Events();
     this.CLoadThemeFromLocalStorage();
-    document.querySelector(".img_lq").className += " d-none";
-    document.querySelector(".img_hq").className = "img_hq";
   }
 
   _createClass(App, [{
@@ -100,6 +98,10 @@ var App = /*#__PURE__*/function () {
 
 document.addEventListener("DOMContentLoaded", function () {
   var app = new App();
+});
+window.addEventListener('load', function () {
+  document.querySelector(".img_lq").className += " d-none";
+  document.querySelector(".img_hq").className = "img_hq";
 });
 
 /***/ }),

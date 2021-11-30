@@ -16,7 +16,17 @@
         img{
             margin: 0;
             border-radius: 25px;
+            &.img_lq{
+                filter: blur(20px);
+                transform: scale(1.05);
+            }
+            &.img_hq{
+                animation-name: blurtonormal;
+                animation-duration: 0.3s;
+            }
         }
+
+
 
     }
     .about_my_experience{
@@ -25,7 +35,7 @@
             width: 80%;
         }
     }
-    
+
 
 }
 
@@ -76,7 +86,7 @@
                     line-height: 60px;
                 }
             }
-            
+
         }
         .about_my_experience{
             padding-top: 20px;
@@ -99,7 +109,7 @@
                     line-height: 90px;
                 }
             }
-            
+
         }
         .about_my_experience{
             flex-direction: column;
@@ -113,7 +123,7 @@
             .about_me_text{
                 padding-left: 50px;
             }
-            
+
         }
         .about_my_experience{
             padding-top: 50px;

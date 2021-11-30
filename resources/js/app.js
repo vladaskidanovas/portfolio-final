@@ -1,13 +1,13 @@
 // require('./bootstrap');
 
+
 class App {
 
     constructor() {
         this.Events();
         this.CLoadThemeFromLocalStorage();
 
-        document.querySelector(".img_lq").className += " d-none";
-        document.querySelector(".img_hq").className = "img_hq";
+
 
     }
 
@@ -80,3 +80,9 @@ class App {
   document.addEventListener("DOMContentLoaded", () => {
       const app = new App();
   });
+
+
+window.addEventListener('load', () => {
+    document.querySelector(".img_lq").className += " d-none";
+    document.querySelector(".img_hq").className = "img_hq";
+});
