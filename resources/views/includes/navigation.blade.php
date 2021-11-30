@@ -1,4 +1,4 @@
-{{-- <nav class="fixed-top navbar navbar-expand-lg">
+<nav class="fixed-top navbar navbar-expand-lg">
     <div class="container-fluid">
         <a class="navbar-brand" href="{{ route('welcome') }}">
             <img width="32" src="{{ asset('img/logo.svg') }}" alt="">
@@ -29,10 +29,10 @@
 
         </div>
     </div>
-</nav> --}}
+</nav>
 
 
-<nav class="navbar navbar-expand-lg">
+{{-- <nav class="navbar navbar-expand-lg">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">Navbar</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -55,4 +55,4 @@
         </ul>
       </div>
     </div>
-  </nav>
+  </nav> --}}
