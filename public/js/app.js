@@ -13,7 +13,6 @@ function _defineProperties(target, props) { for (var i = 0; i < props.length; i+
 
 function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
 
-// require('./bootstrap');
 var App = /*#__PURE__*/function () {
   function App() {
     _classCallCheck(this, App);
@@ -29,6 +28,17 @@ var App = /*#__PURE__*/function () {
 
       document.getElementById('theme_btn').addEventListener('click', function (e) {
         _this.CChangeTheme(e);
+      });
+      document.getElementById('menuToggle').addEventListener('click', function () {
+        var x = document.getElementById("navbarNav");
+
+        if (x.classList.contains("show")) {
+          x.classList.add("hidden");
+          x.classList.remove("show");
+        } else {
+          x.classList.add("show");
+          x.classList.remove("hidden");
+        }
       });
       document.addEventListener("mousemove", function (e) {
         _this.WPBackgroundParalax(e);

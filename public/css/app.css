@@ -11287,19 +11287,28 @@ textarea.form-control-lg {
 nav {
   padding: 0.5rem 3rem 0.5rem 3rem;
 }
-nav .navbar-toggler {
-  font-size: 31px;
-}
 nav .navbar-toggler:focus {
   text-decoration: none;
   outline: 0;
   box-shadow: none;
 }
-nav .nav-link {
+nav #navbarNav {
+  overflow: hidden;
+  transition: 0.35s;
+}
+nav #navbarNav.hidden {
+  height: 0;
+  visibility: hidden;
+}
+nav #navbarNav.show {
+  height: 100px;
+  visibility: visible;
+}
+nav #navbarNav .nav-link {
   padding: 0 1.5rem 0 1.5rem !important;
   text-decoration: none;
 }
-nav .nav-link:hover {
+nav #navbarNav .nav-link:hover {
   transition: color 0.5s ease;
   color: #6574cd !important;
 }
@@ -11315,10 +11324,25 @@ nav .navbar-brand label {
   cursor: pointer;
 }
 
-@media (max-width: 575.98px) {
+@media (max-width: 991.98px) {
+  nav .nav-link {
+    font-size: 1.2rem;
+  }
+}
+@media (min-width: 992px) {
   nav {
     padding-left: 0.25rem;
     padding-right: 0.25rem;
+  }
+  nav #navbarNav.hidden {
+    visibility: visible;
+    height: auto;
+  }
+  nav #navbarNav.show {
+    height: auto;
+  }
+  nav #navbarNav .nav-link {
+    font-size: 1rem;
   }
 }
 footer .socials {
@@ -11373,8 +11397,9 @@ html body a {
 .mode-dark nav {
   background-color: #000000;
 }
-.mode-dark nav ion-icon {
+.mode-dark nav svg {
   color: #fdfdfd;
+  font-size: 32rem;
 }
 .mode-dark nav .navbar-nav .nav-link {
   color: #fdfdfd;

@@ -5,8 +5,9 @@
 
     nav{
         background-color: $dark;
-        ion-icon{
+        svg{
             color: $light;
+            font-size: 32rem;
         }
         .navbar-nav
         {
