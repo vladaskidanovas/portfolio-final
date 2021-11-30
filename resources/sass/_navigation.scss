@@ -7,31 +7,6 @@ nav{
         }
     }
 
-    #navbarNav{
-        overflow: hidden;
-        transition: 0.35s;
-        &.hidden{
-            // height: 0;
-            // visibility: hidden;
-            display: none;
-        }
-        &.show{
-            // height: 100px;
-            // visibility: visible;
-            display: block;
-        }
-        .nav-link{
-            padding: 0 1.5rem 0 1.5rem!important;
-            text-decoration: none;
-
-            &:hover{
-                transition: color 0.5s ease;
-                color: $indigo!important;
-            }
-        }
-
-    }
-
 
 
     .navbar-brand {
@@ -50,9 +25,41 @@ nav{
 
 }
 
+@include media-breakpoint-down(md) {
+    nav{
+
+        padding: 0;
+        .nav-link{
+            font-size: 1.2rem;
+        }
+    }
+}
+
 @include media-breakpoint-down(lg) {
     nav{
         padding: 0;
+        #navbarNav{
+            overflow: hidden;
+            transition: 0.35s;
+            &.hidden{
+                height: 0;
+                visibility: hidden;
+            }
+            &.show{
+                height: 100px;
+                visibility: visible;
+            }
+            .nav-link{
+                padding: 0 1.5rem 0 1.5rem!important;
+                text-decoration: none;
+
+                &:hover{
+                    transition: color 0.5s ease;
+                    color: $indigo!important;
+                }
+            }
+
+        }
         .nav-link{
             font-size: 1.2rem;
         }
@@ -62,13 +69,7 @@ nav{
     nav{
         padding: 0.5rem 3rem 0.5rem 3rem;
         #navbarNav{
-            &.hidden{
-                // visibility: visible;
-                // height: auto;
-            }
-            &.show{
-                // height: auto;
-            }
+            transition: none;
             .nav-link{
                 font-size: 1rem;
             }

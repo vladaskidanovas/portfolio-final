@@ -11289,24 +11289,6 @@ nav .navbar-toggler:focus {
   outline: 0;
   box-shadow: none;
 }
-nav #navbarNav {
-  overflow: hidden;
-  transition: 0.35s;
-}
-nav #navbarNav.hidden {
-  display: none;
-}
-nav #navbarNav.show {
-  display: block;
-}
-nav #navbarNav .nav-link {
-  padding: 0 1.5rem 0 1.5rem !important;
-  text-decoration: none;
-}
-nav #navbarNav .nav-link:hover {
-  transition: color 0.5s ease;
-  color: #6574cd !important;
-}
 nav .navbar-brand:hover {
   color: #867bfd;
 }
@@ -11319,9 +11301,37 @@ nav .navbar-brand label {
   cursor: pointer;
 }
 
+@media (max-width: 767.98px) {
+  nav {
+    padding: 0;
+  }
+  nav .nav-link {
+    font-size: 1.2rem;
+  }
+}
 @media (max-width: 991.98px) {
   nav {
     padding: 0;
+  }
+  nav #navbarNav {
+    overflow: hidden;
+    transition: 0.35s;
+  }
+  nav #navbarNav.hidden {
+    height: 0;
+    visibility: hidden;
+  }
+  nav #navbarNav.show {
+    height: 100px;
+    visibility: visible;
+  }
+  nav #navbarNav .nav-link {
+    padding: 0 1.5rem 0 1.5rem !important;
+    text-decoration: none;
+  }
+  nav #navbarNav .nav-link:hover {
+    transition: color 0.5s ease;
+    color: #6574cd !important;
   }
   nav .nav-link {
     font-size: 1.2rem;
@@ -11330,6 +11340,9 @@ nav .navbar-brand label {
 @media (min-width: 992px) {
   nav {
     padding: 0.5rem 3rem 0.5rem 3rem;
+  }
+  nav #navbarNav {
+    transition: none;
   }
   nav #navbarNav .nav-link {
     font-size: 1rem;
