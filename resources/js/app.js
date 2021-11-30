@@ -3,9 +3,6 @@ class App {
     constructor() {
         this.Events();
         this.CLoadThemeFromLocalStorage();
-
-
-
     }
 
     Events() {
@@ -14,16 +11,16 @@ class App {
             this.CChangeTheme(e);
         });
 
-        document.getElementById('menuToggle').addEventListener('click', ()=>{
-            var x = document.getElementById("navbarNav");
-            if (x.classList.contains("show")) {
-                x.classList.add("hidden")
-                x.classList.remove("show")
-            } else {
-                x.classList.add("show")
-                x.classList.remove("hidden")
-            }
-        });
+        // document.getElementById('menuToggle').addEventListener('click', ()=>{
+        //     var x = document.getElementById("navbarNav");
+        //     if (x.classList.contains("show")) {
+        //         x.classList.add("hidden")
+        //         x.classList.remove("show")
+        //     } else {
+        //         x.classList.add("show")
+        //         x.classList.remove("hidden")
+        //     }
+        // });
 
         document.addEventListener("mousemove", (e) => {
             this.WPBackgroundParalax(e);
@@ -36,7 +33,6 @@ class App {
     CLoadThemeFromLocalStorage(){
         if (localStorage.getItem('theme')) {
             document.body.className = localStorage.getItem('theme');
-
         }else{
             // choose by time
             var time = new Date().toLocaleString('en-US', { hour: 'numeric', hour12: false });
