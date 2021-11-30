@@ -11309,6 +11309,9 @@ nav #navbarNav .nav-link:hover {
   transition: color 0.5s ease;
   color: #6574cd !important;
 }
+nav #navbarNav.collapse:not(.show) {
+  display: block;
+}
 nav .navbar-brand:hover {
   color: #867bfd;
 }
