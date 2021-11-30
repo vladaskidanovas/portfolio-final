@@ -7,8 +7,6 @@ nav{
         }
     }
 
-
-
     .navbar-brand {
         &:hover{
             color: $primary;
@@ -25,15 +23,6 @@ nav{
 
 }
 
-@include media-breakpoint-down(md) {
-    nav{
-
-        padding: 0;
-        .nav-link{
-            font-size: 1.2rem;
-        }
-    }
-}
 
 @include media-breakpoint-down(lg) {
     nav{
@@ -52,7 +41,6 @@ nav{
             .nav-link{
                 padding: 0 1.5rem 0 1.5rem!important;
                 text-decoration: none;
-
                 &:hover{
                     transition: color 0.5s ease;
                     color: $indigo!important;
@@ -69,7 +57,6 @@ nav{
     nav{
         padding: 0.5rem 3rem 0.5rem 3rem;
         #navbarNav{
-            transition: none;
             .nav-link{
                 font-size: 1rem;
             }

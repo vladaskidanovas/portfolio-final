@@ -11,6 +11,7 @@
         }
         .navbar-nav
         {
+            background-color: $dark;
             .nav-link {
                 color: $light;
             }
@@ -42,6 +43,7 @@
         background-color: $light;
 
         .navbar-nav{
+            background-color: $light;
             .nav-link {
                 color: $dark;
             }
