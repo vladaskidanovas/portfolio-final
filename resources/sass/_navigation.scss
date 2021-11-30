@@ -1,5 +1,5 @@
-nav{
-    .navbar-toggler{
+nav {
+    .navbar-toggler {
         &:focus {
             text-decoration: none;
             outline: 0;
@@ -7,59 +7,43 @@ nav{
         }
     }
 
-                .nav-link{
-                padding: 0 1.5rem 0 1.5rem!important;
-                text-decoration: none;
-                &:hover{
-                    transition: color 0.5s ease;
-                    color: $indigo!important;
-                }
-            }
+    // .nav-link {
+    //     padding: 0 1.5rem 0 1.5rem !important;
+    //     text-decoration: none;
+    //     &:hover {
+    //         transition: color 0.5s ease;
+    //         color: $indigo !important;
+    //     }
+    // }
 
     .navbar-brand {
-        &:hover{
+        &:hover {
             color: $primary;
         }
-        img{
+        img {
             width: 32px;
         }
-        label{
+        label {
             font-size: 16px;
             font-weight: bold;
             cursor: pointer;
         }
     }
-
 }
 
-
 @include media-breakpoint-down(lg) {
-    nav{
+    nav {
         padding: 0;
-        // #navbarNav{
-        //     overflow: hidden;
-        //     transition: 0.35s;
-        //     &.hidden{
-        //         height: 0;
-        //         visibility: hidden;
-        //     }
-        //     &.show{
-        //         height: 100px;
-        //         visibility: visible;
-        //     }
-
-
-        // }
-        .nav-link{
+        .nav-link {
             font-size: 1.2rem;
         }
     }
 }
 @include media-breakpoint-up(lg) {
-    nav{
+    nav {
         padding: 0.5rem 3rem 0.5rem 3rem;
-        #navbarNav{
-            .nav-link{
+        #navbarNav {
+            .nav-link {
                 font-size: 1rem;
             }
         }
