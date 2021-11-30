@@ -11293,10 +11293,6 @@ nav .nav-link {
   padding: 0 1.5rem 0 1.5rem !important;
   text-decoration: none;
 }
-nav .nav-link:hover {
-  transition: color 0.5s ease;
-  color: #6574cd !important;
-}
 nav .navbar-brand:hover {
   color: #867bfd;
 }
@@ -11312,22 +11308,6 @@ nav .navbar-brand label {
 @media (max-width: 991.98px) {
   nav {
     padding: 0;
-  }
-  nav #navbarNav {
-    overflow: hidden;
-    transition: height 0.35s ease-out;
-  }
-  nav #navbarNav.hidden {
-    height: 0;
-    visibility: hidden;
-  }
-  nav #navbarNav.show {
-    height: 100px;
-    visibility: visible;
-  }
-  nav #navbarNav.collapse:not(.show) {
-    display: block;
-    height: 0;
   }
   nav .nav-link {
     font-size: 1.2rem;

@@ -11,8 +11,8 @@ nav {
         padding: 0 1.5rem 0 1.5rem !important;
         text-decoration: none;
         &:hover {
-            transition: color 0.5s ease;
-            color: $indigo !important;
+            // transition: color 0.5s ease;
+            // color: $indigo !important;
         }
     }
 
@@ -34,22 +34,22 @@ nav {
 @include media-breakpoint-down(lg) {
     nav {
         padding: 0;
-        #navbarNav {
-            overflow: hidden;
-            transition: height 0.35s ease-out;
-            &.hidden {
-                height: 0;
-                visibility: hidden;
-            }
-            &.show {
-                height: 100px;
-                visibility: visible;
-            }
-            &.collapse:not(.show) {
-                display: block;
-                height: 0;
-            }
-        }
+        // #navbarNav {
+        //     overflow: hidden;
+        //     transition: height 0.35s ease-out;
+        //     &.hidden {
+        //         height: 0;
+        //         visibility: hidden;
+        //     }
+        //     &.show {
+        //         height: 100px;
+        //         visibility: visible;
+        //     }
+        //     &.collapse:not(.show) {
+        //         display: block;
+        //         height: 0;
+        //     }
+        // }
         .nav-link {
             font-size: 1.2rem;
         }
