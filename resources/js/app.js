@@ -11,16 +11,17 @@ class App {
             this.CChangeTheme(e);
         });
 
-        document.getElementById('menuToggle').addEventListener('click', ()=>{
-            var x = document.getElementById("navbarNav");
-            if (x.classList.contains("show")) {
-                x.classList.add("hidden")
-                x.classList.remove("show")
-            } else {
-                x.classList.add("show")
-                x.classList.remove("hidden")
-            }
-        });
+        //Deprecate
+        // document.getElementById('menuToggle').addEventListener('click', ()=>{
+        //     var x = document.getElementById("navbarNav");
+        //     if (x.classList.contains("show")) {
+        //         x.classList.add("hidden")
+        //         x.classList.remove("show")
+        //     } else {
+        //         x.classList.add("show")
+        //         x.classList.remove("hidden")
+        //     }
+        // });
 
         document.addEventListener("mousemove", (e) => {
             this.WPBackgroundParalax(e);

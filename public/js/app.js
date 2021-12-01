@@ -28,18 +28,18 @@ var App = /*#__PURE__*/function () {
 
       document.getElementById('theme_btn').addEventListener('click', function (e) {
         _this.CChangeTheme(e);
-      });
-      document.getElementById('menuToggle').addEventListener('click', function () {
-        var x = document.getElementById("navbarNav");
+      }); //Deprecate
+      // document.getElementById('menuToggle').addEventListener('click', ()=>{
+      //     var x = document.getElementById("navbarNav");
+      //     if (x.classList.contains("show")) {
+      //         x.classList.add("hidden")
+      //         x.classList.remove("show")
+      //     } else {
+      //         x.classList.add("show")
+      //         x.classList.remove("hidden")
+      //     }
+      // });
 
-        if (x.classList.contains("show")) {
-          x.classList.add("hidden");
-          x.classList.remove("show");
-        } else {
-          x.classList.add("show");
-          x.classList.remove("hidden");
-        }
-      });
       document.addEventListener("mousemove", function (e) {
         _this.WPBackgroundParalax(e);
       });
