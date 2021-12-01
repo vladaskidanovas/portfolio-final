@@ -11358,10 +11358,6 @@ html body .main {
   padding: 4rem 0;
   height: 100%;
 }
-html body a {
-  text-decoration: none;
-}
-
 .mode-dark {
   background-color: #000000;
   color: #fdfdfd;
