@@ -14,7 +14,7 @@
         </button>
 
         <div class="collapse navbar-collapse text-end" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
+            <ul class="navbar-nav ms-auto bg-light">
                 <li class="nav-item bg-light">
                     <a class="nav-link bg-light {{ request()->is('about') ? 'active' : '' }}" {{ request()->is('about') ? 'aria-current="page"' : '' }} href="{{ route('about') }}">About</a>
                 </li>
