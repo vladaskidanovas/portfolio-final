@@ -52,7 +52,7 @@
                     <div class="languages">
                         <h2>Languages</h2>
                         <span class="badge bg-primary mb-1 fs-6">English</span>
-                        <span class="badge bg-primary mb-1 fs-6">Lithuanin</span>
+                        <span class="badge bg-primary mb-1 fs-6">Lithuanian</span>
                         <span class="badge bg-primary mb-1 fs-6">Russian</span>
                     </div>
                     <div class="knowledge">
