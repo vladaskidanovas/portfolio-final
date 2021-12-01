@@ -11289,6 +11289,9 @@ nav .navbar-toggler:focus {
   outline: 0;
   box-shadow: none;
 }
+nav .nav-link {
+  transition: none;
+}
 nav .navbar-brand:hover {
   color: #867bfd;
 }
