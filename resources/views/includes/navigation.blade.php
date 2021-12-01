@@ -16,13 +16,13 @@
         <div class="collapse navbar-collapse text-end" id="navbarNav">
             <ul class="navbar-nav ms-auto">
                 <li class="nav-item bg-light">
-                    <a class="nav-link z {{ request()->is('about') ? 'active' : '' }}" {{ request()->is('about') ? 'aria-current="page"' : '' }} href="{{ route('about') }}">About</a>
+                    <a class="nav-link bg-light {{ request()->is('about') ? 'active' : '' }}" {{ request()->is('about') ? 'aria-current="page"' : '' }} href="{{ route('about') }}">About</a>
                 </li>
                 <li class="nav-item bg-light">
-                    <a class="nav-link {{ request()->is('portfolio') ? 'active' : '' }}" {{ request()->is('portfolio') ? 'aria-current="page"' : '' }} href="{{ route('portfolio') }}">Portfolio</a>
+                    <a class="nav-link bg-light {{ request()->is('portfolio') ? 'active' : '' }}" {{ request()->is('portfolio') ? 'aria-current="page"' : '' }} href="{{ route('portfolio') }}">Portfolio</a>
                 </li>
                 <li class="nav-item bg-light">
-                    <a class="nav-link {{ request()->is('contact') ? 'active' : '' }}" {{ request()->is('contact') ? 'aria-current="page"' : '' }} href="{{ route('contact') }}">Contact</a>
+                    <a class="nav-link bg-light {{ request()->is('contact') ? 'active' : '' }}" {{ request()->is('contact') ? 'aria-current="page"' : '' }} href="{{ route('contact') }}">Contact</a>
                 </li>
             </ul>
         </div>
