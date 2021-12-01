@@ -15,14 +15,14 @@
 
         <div class="collapse navbar-collapse text-end" id="navbarNav">
             <ul class="navbar-nav ms-auto">
-                <li class="">
-                    <a class=" {{ request()->is('about') ? 'active' : '' }}" {{ request()->is('about') ? 'aria-current="page"' : '' }} href="{{ route('about') }}">About</a>
+                <li class="nav-item">
+                    <a class="nav-link {{ request()->is('about') ? 'active' : '' }}" {{ request()->is('about') ? 'aria-current="page"' : '' }} href="{{ route('about') }}">About</a>
                 </li>
-                <li class="">
-                    <a class=" {{ request()->is('portfolio') ? 'active' : '' }}" {{ request()->is('portfolio') ? 'aria-current="page"' : '' }} href="{{ route('portfolio') }}">Portfolio</a>
+                <li class="nav-item">
+                    <a class="nav-link {{ request()->is('portfolio') ? 'active' : '' }}" {{ request()->is('portfolio') ? 'aria-current="page"' : '' }} href="{{ route('portfolio') }}">Portfolio</a>
                 </li>
-                <li class="">
-                    <a class=" {{ request()->is('contact') ? 'active' : '' }}" {{ request()->is('contact') ? 'aria-current="page"' : '' }} href="{{ route('contact') }}">Contact</a>
+                <li class="nav-item">
+                    <a class="nav-link {{ request()->is('contact') ? 'active' : '' }}" {{ request()->is('contact') ? 'aria-current="page"' : '' }} href="{{ route('contact') }}">Contact</a>
                 </li>
             </ul>
         </div>
