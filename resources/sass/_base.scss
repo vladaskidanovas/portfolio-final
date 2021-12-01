@@ -8,6 +8,13 @@ html{
             height: 100%;
         }
 
+        .btn{
+            transition: none;
+            &.btn-primary{
+                color: $light;
+            }
+        }
+
         a{
             // text-decoration: none;
         }

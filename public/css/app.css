@@ -11290,7 +11290,13 @@ nav .navbar-toggler:focus {
   box-shadow: none;
 }
 nav .nav-link {
+  padding: 0 1.5rem 0 1.5rem !important;
+  text-decoration: none;
   transition: none;
+}
+nav .nav-link:hover {
+  transition: color 0.5s ease;
+  color: #6574cd !important;
 }
 nav .navbar-brand:hover {
   color: #867bfd;
@@ -11360,6 +11366,12 @@ html body {
 html body .main {
   padding: 4rem 0;
   height: 100%;
+}
+html body .btn {
+  transition: none;
+}
+html body .btn.btn-primary {
+  color: #fdfdfd;
 }
 .mode-dark {
   background-color: #000000;

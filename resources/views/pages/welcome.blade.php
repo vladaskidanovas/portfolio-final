@@ -9,7 +9,7 @@
                 </div>
                 <br>
                 <p>Junior front-end, backend developer</p>
-                <a href="{{url("/about")}}" class="btn btn-outline-primary">Portfolio</a>
+                <a href="{{url("/about")}}" class="btn btn-primary">Portfolio</a>
             </div>
 
     </section>
