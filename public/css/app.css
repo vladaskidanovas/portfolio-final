@@ -11373,6 +11373,10 @@ html body .btn {
 html body .btn.btn-primary {
   color: #fdfdfd;
 }
+html body a {
+  text-decoration: none;
+}
+
 .mode-dark {
   background-color: #000000;
   color: #fdfdfd;
