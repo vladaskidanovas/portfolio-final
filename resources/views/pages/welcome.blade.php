@@ -8,8 +8,8 @@
                     Hello, my name is Vlad. <br> I am web developer based in Leicester, UK
                 </div>
                 <br>
-                <p>Junior front-end, backend developer</p>
-                <a href="{{url("/about")}}" class="btn btn-primary">Portfolio</a>
+                <p>Junior backend developer</p>
+                <a href="{{url("/about")}}" class="btn btn-primary">About me</a>
             </div>
 
     </section>

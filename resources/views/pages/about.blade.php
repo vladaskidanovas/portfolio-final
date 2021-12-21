@@ -37,17 +37,20 @@
                 <div class="skills">
                     <div class="coding">
                         <h1>Skills</h1>
-                        <span class="badge bg-primary mb-1 fs-6">JavaScript</span>
                         <span class="badge bg-primary mb-1 fs-6">MySQL</span>
-                        <span class="badge bg-primary mb-1 fs-6">Docker</span>
-                        <span class="badge bg-primary mb-1 fs-6">NPM</span>
-                        <span class="badge bg-primary mb-1 fs-6">HTML/CSS</span>
-                        <span class="badge bg-primary mb-1 fs-6">ReactJS</span>
                         <span class="badge bg-primary mb-1 fs-6">PHP</span>
-                        <span class="badge bg-primary mb-1 fs-6">SASS</span>
-                        <span class="badge bg-primary mb-1 fs-6">Git</span>
+                        <span class="badge bg-primary mb-1 fs-6">WordPress</span>
+                        <span class="badge bg-primary mb-1 fs-6">Laravel</span>
+                        <span class="badge bg-primary mb-1 fs-6">OctoberCMS</span>
                         <span class="badge bg-primary mb-1 fs-6">NGINX</span>
                         <span class="badge bg-primary mb-1 fs-6">Linux</span>
+                        <span class="badge bg-primary mb-1 fs-6">Docker</span>
+                        <span class="badge bg-primary mb-1 fs-6">NPM</span>
+                        <span class="badge bg-primary mb-1 fs-6">Git</span>
+                        <span class="badge bg-primary mb-1 fs-6">HTML/CSS</span>
+                        <span class="badge bg-primary mb-1 fs-6">SASS</span>
+                        <span class="badge bg-primary mb-1 fs-6">JavaScript</span>
+                        <span class="badge bg-primary mb-1 fs-6">Svelte</span>
                     </div>
                     <div class="languages">
                         <h2>Languages</h2>
@@ -57,6 +60,8 @@
                     </div>
                     <div class="knowledge">
                         <h2>Knowledge</h2>
+                        <span class="badge bg-primary mb-1 fs-6">Website hosting</span>
+                        <span class="badge bg-primary mb-1 fs-6"></span>
                     </div>
                 </div>
             </section>
