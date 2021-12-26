@@ -45,9 +45,9 @@ Route::get('/portfolio', function () {
     return view('pages.portfolio');
 })->name('portfolio');
 
-Route::get('/blog', function () {
-    return view('pages.blog');
-})->name('blog');
+// Route::get('/blog', function () {
+//     return view('pages.blog');
+// })->name('blog');
 
 Route::get('/contact', [ContactController::class, 'index'])->name('contact');
 

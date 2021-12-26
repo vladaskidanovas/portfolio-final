@@ -49,6 +49,7 @@
 @include media-breakpoint-down(md) {
     .about{
         padding-top: 10px;
+        padding-bottom: 50px;
         .about_me{
             flex-direction: column;
             img{

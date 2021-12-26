@@ -11531,6 +11531,7 @@ html body a {
 @media (max-width: 767.98px) {
   .about {
     padding-top: 10px;
+    padding-bottom: 50px;
   }
   .about .about_me {
     flex-direction: column;
