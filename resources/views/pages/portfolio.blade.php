@@ -21,7 +21,6 @@
                             This project I learned: <br>
                             WordPress framework <br>
                             Deploy site on dedicated server using NGINX
-                            Additionally I learned blender and made 3d models
                         </p>
                         <a
                             href="https://ledecorate.co.uk"
