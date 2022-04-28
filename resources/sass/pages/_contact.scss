@@ -4,21 +4,30 @@
 // lg: 992px,
 // xl: 1200px,
 // xxl: 1400px
+.contact {
+    .card {
+        background-color: rgba(225, 225, 225, 0.15);
+        border: 1px solid rgba(225, 225, 225, 0.1);
+    }
+}
+
 
 @include media-breakpoint-down(md) {
-    .contact{
+    .contact {
         padding-top: 10px;
         padding-bottom: 10px;
     }
 }
 
 @include media-breakpoint-up(md) {
-    .contact{
+    .contact {
         padding-top: 50px;
         padding-bottom: 50px;
-        .card{
+
+        .card {
             height: 500px;
-            .card-title{
+
+            .card-title {
                 font-size: 3rem;
             }
         }
@@ -26,15 +35,13 @@
 }
 
 @include media-breakpoint-up(lg) {
-    .contact{
-        .card{
-            .card-title{
+    .contact {
+        .card {
+            .card-title {
                 font-size: 5rem;
             }
         }
     }
 }
 
-@include media-breakpoint-up(xl) {
-
-}
+@include media-breakpoint-up(xl) {}

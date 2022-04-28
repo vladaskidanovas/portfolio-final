@@ -61,7 +61,7 @@
                                 </div>
                                 <div class="mb-3">
                                     <label for="formControlMessageText" class="form-label">Message</label>
-                                    <textarea class="form-control {{ $errors->first('message_text') ? 'is-invalid' : '' }} "
+                                    <textarea style="resize:none" class="form-control {{ $errors->first('message_text') ? 'is-invalid' : '' }} "
                                               id="formControlMessageText" name="message_text" rows="9" required></textarea>
                                     <div id="validationMessage" class="invalid-feedback">
                                         {{ $errors->first('message_text') }}

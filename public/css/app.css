@@ -11604,6 +11604,8 @@ html body a {
   }
 }
 .portfolio .card {
+  background-color: rgba(225, 225, 225, 0.15);
+  border: 1px solid rgba(225, 225, 225, 0.1);
   overflow: hidden;
 }
 .portfolio .card .card-img-top {
@@ -11625,7 +11627,7 @@ html body a {
 @media (max-width: 767.98px) {
   .portfolio {
     padding-top: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 50px;
   }
 }
 @media (min-width: 768px) {
@@ -11634,6 +11636,11 @@ html body a {
     padding-bottom: 50px;
   }
 }
+.contact .card {
+  background-color: rgba(225, 225, 225, 0.15);
+  border: 1px solid rgba(225, 225, 225, 0.1);
+}
+
 @media (max-width: 767.98px) {
   .contact {
     padding-top: 10px;

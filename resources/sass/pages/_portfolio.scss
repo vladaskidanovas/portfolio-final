@@ -1,5 +1,7 @@
 .portfolio{
     .card{
+        background-color: rgba(225, 225, 225, 0.15);
+        border: 1px solid rgba(225, 225, 225, 0.1);
         overflow:hidden;
         .card-img-top{
             overflow: hidden;
@@ -30,7 +32,7 @@
 @include media-breakpoint-down(md) {
     .portfolio{
         padding-top: 10px;
-        padding-bottom: 10px;
+        padding-bottom: 50px;
     }
 }
 

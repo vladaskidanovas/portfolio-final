@@ -11,7 +11,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
 function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
 
-function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); Object.defineProperty(Constructor, "prototype", { writable: false }); return Constructor; }
 
 var App = /*#__PURE__*/function () {
   function App() {
@@ -28,18 +28,7 @@ var App = /*#__PURE__*/function () {
 
       document.getElementById('theme_btn').addEventListener('click', function (e) {
         _this.CChangeTheme(e);
-      }); //Deprecate
-      // document.getElementById('menuToggle').addEventListener('click', ()=>{
-      //     var x = document.getElementById("navbarNav");
-      //     if (x.classList.contains("show")) {
-      //         x.classList.add("hidden")
-      //         x.classList.remove("show")
-      //     } else {
-      //         x.classList.add("show")
-      //         x.classList.remove("hidden")
-      //     }
-      // });
-
+      });
       document.addEventListener("mousemove", function (e) {
         _this.WPBackgroundParalax(e);
       });
@@ -110,10 +99,11 @@ document.addEventListener("DOMContentLoaded", function () {
   var app = new App();
 });
 window.addEventListener('load', function () {
-  //ifexist
   if (document.querySelector(".img_lq") != null || document.querySelector(".img_hq") != null) {
-    document.querySelector(".img_lq").className += " d-none";
-    document.querySelector(".img_hq").className = "img_hq";
+    document.querySelectorAll(".img_lq").forEach(function (element) {
+      element.className += " d-none";
+      element.nextElementSibling.className = "img_hq";
+    });
   }
 });
 
@@ -254,7 +244,7 @@ __webpack_require__.r(__webpack_exports__);
 /******/ 				if(__webpack_require__.o(installedChunks, chunkId) && installedChunks[chunkId]) {
 /******/ 					installedChunks[chunkId][0]();
 /******/ 				}
-/******/ 				installedChunks[chunkIds[i]] = 0;
+/******/ 				installedChunks[chunkId] = 0;
 /******/ 			}
 /******/ 			return __webpack_require__.O(result);
 /******/ 		}

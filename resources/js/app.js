@@ -11,18 +11,6 @@ class App {
             this.CChangeTheme(e);
         });
 
-        //Deprecate
-        // document.getElementById('menuToggle').addEventListener('click', ()=>{
-        //     var x = document.getElementById("navbarNav");
-        //     if (x.classList.contains("show")) {
-        //         x.classList.add("hidden")
-        //         x.classList.remove("show")
-        //     } else {
-        //         x.classList.add("show")
-        //         x.classList.remove("hidden")
-        //     }
-        // });
-
         document.addEventListener("mousemove", (e) => {
             this.WPBackgroundParalax(e);
         });
@@ -90,10 +78,10 @@ class App {
 
 
 window.addEventListener('load', () => {
-    //ifexist
-
     if (document.querySelector(".img_lq") != null || document.querySelector(".img_hq") != null) {
-        document.querySelector(".img_lq").className += " d-none";
-        document.querySelector(".img_hq").className = "img_hq";
+        document.querySelectorAll(".img_lq").forEach(element => {
+            element.className += " d-none";
+            element.nextElementSibling.className = "img_hq";
+        });
     }
 });
