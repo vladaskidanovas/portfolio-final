@@ -10,7 +10,7 @@
                 <div class="about_me_text">
                     <h1>Hi there!</h1>
                     <p>
-                        I am a self-taught backend web developer with an ability to create a beautiful, responsive websites.
+                        I am a self-taught backend web developer with an ability to create beautiful, responsive websites.
                     </p>
                 </div>
             </section>
@@ -64,6 +64,9 @@
                     <div class="knowledge">
                         <h2>Knowledge</h2>
                         <span class="badge bg-primary mb-1 fs-6">Website hosting</span>
+                        <span class="badge bg-primary mb-1 fs-6">Familiarity with Servers</span>
+                        <span class="badge bg-primary mb-1 fs-6">Knowledge of APIs</span>
+                        <span class="badge bg-primary mb-1 fs-6">Version Control and Version Control Systems</span>
                         <span class="badge bg-primary mb-1 fs-6">Responsive web design</span>
                     </div>
                 </div>

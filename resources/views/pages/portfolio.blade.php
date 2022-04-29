@@ -18,9 +18,8 @@
                     <div class="card-body">
                         <h5 class="card-title">Ledecorate.co.uk</h5>
                         <p class="card-text">
-                            This project I learned: <br>
-                            WordPress framework <br>
-                            Deploy site on dedicated server using NGINX
+                            This project is built on WordPress.
+                            <br>Used technologies: WordPress, NGINX. Bootstrap
                         </p>
                         <a
                             href="https://ledecorate.co.uk"
@@ -33,7 +32,10 @@
             </div>
             <div class="col">
 
-                <div class="card">
+                <div
+                    class="card"
+                    style="height: ;"
+                >
                     <div class="card-img-top">
                         <img
                             class="img_lq"
@@ -47,13 +49,12 @@
                     <div class="card-body">
                         <h5 class="card-title">TRSNET</h5>
                         <p class="card-text">
-                            This project I learned: <br>
-                            Laravel framework <br>
-                            Livewire framework
+                            This project I started for practicing my skills in backend development.
+                            <br> Used technologies: Laravel, Livewire, Mysql, Reddis, Bootstrap, jQuery+UI, API’s
 
                         </p>
                         <a
-                            href="trsnet.vladkidanov.dev"
+                            href="https://trsnet.vladkidanov.dev"
                             class="btn btn-primary"
                             target="_blank"
                         >Visit trsnet.vladkidanov.dev</a>

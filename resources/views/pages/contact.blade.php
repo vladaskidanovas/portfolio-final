@@ -41,28 +41,25 @@
                                 @csrf
 
                                 <div class="mb-3">
-                                    <label for="formControlName" class="form-label">Name</label>
                                     <input type="text"
                                            class="form-control {{ $errors->first('name') ? 'is-invalid' : '' }}"
-                                           id="formControlName" name="name" placeholder="Alan" required>
+                                           id="formControlName" name="name" placeholder="Name" required>
                                     <div id="validationName" class="invalid-feedback">
                                         {{ $errors->first('name') }}
                                     </div>
                                 </div>
                                 <div class="mb-3">
-                                    <label for="formControlEmail" class="form-label">Email address</label>
                                     <input type="email"
                                            class="form-control {{ $errors->first('email_address') ? 'is-invalid' : '' }}"
-                                           id="formControlEmail" name="email_address" placeholder="name@example.com"
+                                           id="formControlEmail" name="email_address" placeholder="Email address"
                                            required>
                                     <div id="validationEmail" class="invalid-feedback">
                                         {{ $errors->first('email_address') }}
                                     </div>
                                 </div>
                                 <div class="mb-3">
-                                    <label for="formControlMessageText" class="form-label">Message</label>
                                     <textarea style="resize:none" class="form-control {{ $errors->first('message_text') ? 'is-invalid' : '' }} "
-                                              id="formControlMessageText" name="message_text" rows="9" required></textarea>
+                                              id="formControlMessageText" name="message_text" rows="9" placeholder="Message text" required></textarea>
                                     <div id="validationMessage" class="invalid-feedback">
                                         {{ $errors->first('message_text') }}
                                     </div>
