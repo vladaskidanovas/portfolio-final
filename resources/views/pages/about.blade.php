@@ -12,6 +12,7 @@
                     <p>
                         I am a self-taught backend web developer with an ability to create beautiful, responsive websites.
                     </p>
+                    <a href="{{url("/portfolio")}}" class="btn btn-primary">My portfolio</a>
                 </div>
             </section>
         </div>
@@ -24,7 +25,7 @@
                     <h1>Experience</h1>
                     <section>
                         <small>2018 - present</small>
-                        <div class="bold">Self employed</div>
+                        <div class="bold">Self employed - Leicester, UK</div>
                         <span></span>
                     </section>
                     <section>

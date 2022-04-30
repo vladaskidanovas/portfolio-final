@@ -21,6 +21,9 @@
                             This project is built on WordPress.
                             <br>Used technologies: WordPress, NGINX. Bootstrap
                         </p>
+
+                    </div>
+                    <div class="card-footer">
                         <a
                             href="https://ledecorate.co.uk"
                             class="btn btn-primary"
@@ -32,10 +35,7 @@
             </div>
             <div class="col">
 
-                <div
-                    class="card"
-                    style="height: ;"
-                >
+                <div class="card">
                     <div class="card-img-top">
                         <img
                             class="img_lq"
@@ -53,6 +53,8 @@
                             <br> Used technologies: Laravel, Livewire, Mysql, Reddis, Bootstrap, jQuery+UI, API’s
 
                         </p>
+                    </div>
+                    <div class="card-footer">
                         <a
                             href="https://trsnet.vladkidanov.dev"
                             class="btn btn-primary"
