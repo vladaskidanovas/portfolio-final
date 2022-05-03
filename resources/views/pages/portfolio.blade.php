@@ -50,8 +50,8 @@
                         <h5 class="card-title">TRSNET</h5>
                         <p class="card-text">
                             This project I started for practicing my skills in backend development.
-                            <br> Used technologies: Laravel, Livewire, Mysql, Bootstrap, jQuery+UI, API’s.
-                            <br> Planing implement: Unit test, Reddis, Localization, Mailer.
+                            <br> Used technologies: Laravel, Livewire, Mysql, Bootstrap, jQuery+UI, API's.
+                            <br> Planing to implement: Unit test's, Reddis, Localization, Mailer.
 
                         </p>
                     </div>
