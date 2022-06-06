@@ -5,8 +5,8 @@
     <div class="row">
         <div class="col">
             <section class="about_me">
-                <img class="img_lq" src="{{ asset('img/me_lq.jpeg') }}" alt="My photo">
-                <img class="img_hq d-none" src="{{ asset('img/me_hq.png') }}" alt="My photo">
+                <img class="img_lq" src="{{ asset('img/portfolio_lq.jpg') }}" alt="My photo">
+                <img class="img_hq d-none" src="{{ asset('img/portfolio_hq.jpg') }}" alt="My photo">
                 <div class="about_me_text">
                     <h1>Hi there!</h1>
                     <p>
