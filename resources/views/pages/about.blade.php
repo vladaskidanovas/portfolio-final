@@ -24,7 +24,7 @@
                 <div class="experience me-3">
                     <h1>Experience</h1>
                     <section>
-                        <small>2018 - present</small>
+                        <small>2018 - 2022</small>
                         <div class="bold">Self employed - Leicester, UK</div>
                         <span></span>
                     </section>
