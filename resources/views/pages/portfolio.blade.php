@@ -75,7 +75,7 @@
                             src="{{ asset('img/ssg_hq.png') }}"
                         >
                     </x-slot>
-                    <h5 class="card-title">TRSNET</h5>
+                    <h5 class="card-title">Sprite Sheet Generator</h5>
                     <p class="card-text">
                         Sprite Sheet generator is an asset for Unity 2018.4 version. The main purpose is to capture sprite sheets from 3D Objects or Particles.
                         <br> Used technologies: C#, Unity, Shaders
