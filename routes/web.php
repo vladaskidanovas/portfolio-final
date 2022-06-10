@@ -1,6 +1,5 @@
 <?php
 
-use App\Http\Controllers\ContactController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -47,4 +46,6 @@ Route::get('/portfolio', function () {
 //     return view('pages.blog');
 // })->name('blog');
 
-Route::get('/contact', [ContactController::class, 'index'])->name('contact');
+Route::get('/contact', function () {
+    return view('pages.contact');
+})->name('contact');
