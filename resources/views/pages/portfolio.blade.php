@@ -38,7 +38,7 @@
                     <x-slot name="img">
                         <img
                             class="img_lq"
-                            src="{{ asset('img/trsnet_page_lq.jpeg') }}"
+                            src="{{ asset('img/trsnet_page_lq.png') }}"
                         >
                         <img
                             class="img_hq d-none"
@@ -68,7 +68,7 @@
                     <x-slot name="img">
                         <img
                             class="img_lq"
-                            src="{{ asset('img/ssg_lq.jpeg') }}"
+                            src="{{ asset('img/ssg_lq.png') }}"
                         >
                         <img
                             class="img_hq d-none"
