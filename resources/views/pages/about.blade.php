@@ -18,7 +18,7 @@
                     <div class="about_me_text">
                         <h1>Hi there!</h1>
                         <p>
-                            I'm a self-taught backend web developer with an ability to create functional, efficient,
+                            I'm a self-taught web developer with an ability to create functional, efficient,
                             beautiful websites. I'm looking for a job where I can apply my current development knowledge and
                             learn more if that knowledge is not enough.
                             I enjoy being challenged with projects that require me to work outside my comfort zone.
